@@ -1,0 +1,7 @@
+jupyter 
+jupyterlab 
+pyspark 
+pandas 
+faker 
+matplotlib 
+seaborn

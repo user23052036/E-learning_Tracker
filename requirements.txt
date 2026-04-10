@@ -1,7 +1,28 @@
-jupyter 
-jupyterlab 
-pyspark 
-pandas 
-faker 
-matplotlib 
-seaborn
+# E-Learning Progress Tracker - Python Dependencies
+
+# Core Data Processing
+pyspark==3.5.0
+pandas==2.0.3
+numpy==1.24.3
+
+# Data Generation
+faker==19.2.0
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Jupyter Notebook Support
+jupyter==1.0.0
+jupyterlab==4.0.5
+notebook==7.0.2
+ipython==8.14.0
+
+# Optional: For better notebook experience
+ipywidgets==8.1.0
+nbconvert==7.7.3
+
+# Development Tools
+pytest==7.4.0
+black==23.7.0
+flake8==6.1.0

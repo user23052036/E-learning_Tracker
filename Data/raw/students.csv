@@ -1,0 +1,501 @@
+student_id,name,email,age,gender,country,enrollment_date,education_level,employment_status
+STU00001,John Hughes,bdominguez@example.net,31,Other,Japan,2025-05-15,Master,Employed
+STU00002,Bruce Gilbert,michael56@example.org,44,Male,Dominica,2024-09-25,Master,Employed
+STU00003,Crystal Burgess,ritteralexis@example.net,20,Other,Egypt,2025-11-24,Master,Self-Employed
+STU00004,Cameron White,edwardscarrie@example.org,28,Other,French Guiana,2024-07-12,PhD,Unemployed
+STU00005,Matthew Douglas,wrightamy@example.com,37,Other,Romania,2025-09-28,High School,Self-Employed
+STU00006,Thomas Robinson,shelly84@example.net,44,Female,Ecuador,2025-04-29,Master,Self-Employed
+STU00007,Michael Gordon,reedrobert@example.net,23,Female,Libyan Arab Jamahiriya,2024-10-30,Bachelor,Student
+STU00008,Chad Daugherty,kevintran@example.org,27,Male,Holy See (Vatican City State),2025-09-20,Master,Self-Employed
+STU00009,Amanda Young,dsantos@example.org,18,Male,Angola,2025-04-08,Master,Student
+STU00010,Donald Cruz,brownmelissa@example.com,20,Female,Lithuania,2024-04-22,PhD,Employed
+STU00011,Jeremy Walker,blopez@example.net,29,Other,Austria,2025-08-04,Master,Unemployed
+STU00012,Phillip Pineda,sandra49@example.org,21,Male,Saudi Arabia,2024-04-28,High School,Unemployed
+STU00013,Lisa Glenn,aguirreangela@example.net,43,Other,Venezuela,2025-08-17,Bachelor,Student
+STU00014,Teresa Ford,francisco67@example.net,28,Other,Uzbekistan,2024-09-30,Master,Employed
+STU00015,Diana Fleming,christopher38@example.com,26,Male,Guadeloupe,2025-05-31,High School,Unemployed
+STU00016,Donald Adams,kimberly90@example.org,31,Female,Gambia,2025-05-29,Master,Student
+STU00017,Dennis White,asmith@example.com,26,Male,Argentina,2026-03-16,High School,Unemployed
+STU00018,Dr. Daniel Brown,hillcheryl@example.com,28,Female,Zimbabwe,2024-05-25,Master,Employed
+STU00019,Ralph Hill,omartinez@example.org,25,Other,Cameroon,2026-01-05,Master,Student
+STU00020,Crystal Pena,gabriellevalencia@example.net,29,Other,Ghana,2024-05-09,PhD,Unemployed
+STU00021,Amy Klein,theresa05@example.net,42,Female,Saint Barthelemy,2024-05-11,High School,Self-Employed
+STU00022,Brian Hunter,dixonjoel@example.com,44,Female,Montserrat,2025-01-05,High School,Employed
+STU00023,Jennifer May,douglas59@example.com,20,Male,Grenada,2026-03-22,Master,Self-Employed
+STU00024,Jade Dunlap,christy25@example.org,44,Other,French Guiana,2026-02-18,Master,Employed
+STU00025,Allison Lynch,william89@example.net,41,Male,Guatemala,2026-02-25,PhD,Employed
+STU00026,Kevin Sandoval,patrickcuevas@example.org,41,Male,Zimbabwe,2024-06-04,Master,Unemployed
+STU00027,Courtney Gordon,hryan@example.net,22,Male,South Georgia and the South Sandwich Islands,2024-05-16,Master,Self-Employed
+STU00028,Joseph Alexander,james94@example.org,23,Other,Greenland,2024-10-03,Bachelor,Student
+STU00029,Heidi Bryant,steelesean@example.com,26,Other,Guyana,2024-06-06,PhD,Unemployed
+STU00030,Angela Cox,cjacobs@example.com,29,Female,Denmark,2025-05-30,PhD,Unemployed
+STU00031,Beth Medina,qcraig@example.org,21,Male,New Caledonia,2024-10-16,Bachelor,Self-Employed
+STU00032,Erik Miller,jwagner@example.net,28,Female,Lithuania,2025-07-15,High School,Unemployed
+STU00033,Stephanie Walter,jacksonrobert@example.net,42,Other,Rwanda,2026-02-17,PhD,Employed
+STU00034,Beth Johnson,kjohnson@example.org,19,Male,Bulgaria,2025-04-20,Bachelor,Unemployed
+STU00035,Jasmine Henderson,richardhawkins@example.net,22,Other,French Polynesia,2024-07-05,PhD,Self-Employed
+STU00036,Stephanie Vargas,mcknightbrandon@example.net,44,Other,Uruguay,2024-12-24,PhD,Unemployed
+STU00037,Jason Cole,eroberts@example.net,30,Female,Burkina Faso,2025-09-27,PhD,Employed
+STU00038,Leah Wilkins,hernandezalan@example.net,38,Male,Heard Island and McDonald Islands,2025-08-14,Master,Unemployed
+STU00039,Frank Thompson,shirley13@example.com,21,Female,Lithuania,2024-12-14,High School,Unemployed
+STU00040,Stephanie Riley,ymitchell@example.com,43,Female,Saudi Arabia,2024-08-17,PhD,Unemployed
+STU00041,Robert Navarro,russellramirez@example.net,20,Other,Germany,2024-06-20,High School,Self-Employed
+STU00042,Bryan Hill,kwalker@example.com,30,Other,Wallis and Futuna,2026-02-08,Master,Student
+STU00043,Nicole Middleton DDS,codyarnold@example.net,29,Male,Saudi Arabia,2024-08-10,High School,Employed
+STU00044,Amanda Macdonald,adamwall@example.org,28,Male,Heard Island and McDonald Islands,2024-09-04,Bachelor,Self-Employed
+STU00045,Laura Dennis,mariahphillips@example.org,34,Female,Saint Barthelemy,2025-09-07,High School,Self-Employed
+STU00046,Jill Reynolds,christopher24@example.net,33,Other,Paraguay,2024-07-03,Master,Unemployed
+STU00047,Bob Mcguire,murphywilliam@example.com,36,Female,Korea,2025-07-13,Master,Student
+STU00048,Paula Mann,patricia06@example.org,21,Male,Venezuela,2025-09-06,Master,Employed
+STU00049,Cheryl Grant,averycourtney@example.org,39,Female,Burundi,2025-06-11,High School,Student
+STU00050,Connie Gonzalez,lhernandez@example.net,38,Female,Luxembourg,2024-11-01,Bachelor,Student
+STU00051,Shawn Tapia,aaronjones@example.net,37,Male,New Zealand,2024-09-08,High School,Employed
+STU00052,Jason Baker,pwelch@example.net,27,Female,Guernsey,2025-03-28,High School,Self-Employed
+STU00053,Catherine Evans,nancycontreras@example.com,30,Male,South Africa,2025-07-13,Master,Self-Employed
+STU00054,Kimberly Phillips,danielibarra@example.com,26,Female,Italy,2026-03-18,High School,Unemployed
+STU00055,Matthew Wilson,qhuber@example.org,36,Other,Guatemala,2025-08-31,Master,Student
+STU00056,Patricia Webb,rburke@example.org,38,Female,Antarctica (the territory South of 60 deg S),2024-11-07,PhD,Unemployed
+STU00057,Stacy Patton,hartmarcus@example.net,25,Female,Ghana,2025-02-03,High School,Employed
+STU00058,Jessica Green,adamsjessica@example.com,20,Other,North Macedonia,2025-11-28,PhD,Student
+STU00059,Jason Armstrong,amandachan@example.org,23,Male,Yemen,2026-03-17,PhD,Employed
+STU00060,Beverly Fernandez,langchristopher@example.net,26,Other,Grenada,2026-02-04,Bachelor,Employed
+STU00061,Kristen Pena,michaelgonzalez@example.org,25,Female,Taiwan,2025-05-05,PhD,Employed
+STU00062,Crystal Solis,martin38@example.net,26,Male,Egypt,2026-02-25,Master,Employed
+STU00063,Alejandro Bentley,masonlacey@example.org,21,Male,Cayman Islands,2024-11-01,PhD,Self-Employed
+STU00064,Mark Watts,nelsondavid@example.com,38,Female,Palau,2025-01-26,High School,Self-Employed
+STU00065,Sherri Atkins,jonesjennifer@example.net,45,Male,Israel,2024-04-23,Master,Unemployed
+STU00066,Kimberly Ellison,fitzgeraldlaura@example.org,34,Female,Switzerland,2025-06-25,High School,Self-Employed
+STU00067,Franklin Hunt,turnerstephen@example.org,20,Male,Estonia,2026-03-18,Master,Unemployed
+STU00068,Jamie Jordan,tammyhoffman@example.com,43,Female,Finland,2026-02-01,Master,Unemployed
+STU00069,Dana Smith,xluna@example.net,35,Female,Rwanda,2024-06-27,High School,Self-Employed
+STU00070,William Sanders,sergiowoods@example.org,44,Male,Norway,2024-11-22,Master,Unemployed
+STU00071,Mark Miller,jaredmcmahon@example.net,42,Male,Egypt,2024-06-09,Bachelor,Employed
+STU00072,Ryan Mills,briansnyder@example.com,40,Male,Georgia,2025-10-02,Master,Unemployed
+STU00073,Amanda Barker,rsavage@example.net,36,Other,Cote d'Ivoire,2025-10-12,High School,Unemployed
+STU00074,Kimberly Edwards,marcfletcher@example.net,44,Other,Moldova,2025-12-27,High School,Employed
+STU00075,Angela Garcia DDS,amartinez@example.org,24,Other,Mali,2025-10-07,PhD,Self-Employed
+STU00076,Jeffrey Stanton,mccluretyler@example.net,25,Other,Spain,2025-04-27,PhD,Self-Employed
+STU00077,Shane Barnes,phillipsryan@example.com,18,Male,Saint Helena,2026-02-11,PhD,Student
+STU00078,Kelly Gilbert,anne22@example.com,38,Female,Mali,2025-08-22,High School,Unemployed
+STU00079,Tiffany Watson,thomas35@example.net,36,Other,Saint Helena,2026-04-07,High School,Employed
+STU00080,Carly Espinoza,asmith@example.org,24,Male,Canada,2025-03-18,PhD,Employed
+STU00081,Abigail Miles MD,medinamark@example.org,21,Male,Nigeria,2025-03-17,Master,Student
+STU00082,Gregory Hansen,michaelsmith@example.org,42,Other,Falkland Islands (Malvinas),2024-11-02,PhD,Self-Employed
+STU00083,Jessica Daniel,claudia64@example.net,31,Other,Mauritius,2025-07-22,Bachelor,Self-Employed
+STU00084,Kevin Garcia,joshuabaker@example.org,45,Female,Brunei Darussalam,2025-11-12,High School,Employed
+STU00085,Pamela Rivera,tammy97@example.org,36,Male,Chile,2024-04-10,Master,Student
+STU00086,Daniel Noble,douglasalvarez@example.org,34,Female,Gibraltar,2024-06-04,Master,Employed
+STU00087,Breanna Aguirre,uortega@example.com,26,Male,Macao,2025-10-16,High School,Employed
+STU00088,James Schroeder,hkelly@example.com,42,Other,Marshall Islands,2024-06-05,Bachelor,Self-Employed
+STU00089,Cindy Martin,jennifer68@example.com,24,Male,Liechtenstein,2025-08-30,Master,Unemployed
+STU00090,Bryan Yoder,gregory57@example.net,22,Male,Guatemala,2025-09-23,Bachelor,Unemployed
+STU00091,Justin Cuevas,patrickwhite@example.net,34,Other,Algeria,2024-08-30,PhD,Student
+STU00092,Cory Willis,clinton54@example.net,30,Female,Uruguay,2024-04-18,PhD,Student
+STU00093,Matthew May,swilliams@example.net,23,Other,El Salvador,2024-10-26,Master,Unemployed
+STU00094,Kenneth Johnson,oosborn@example.com,41,Female,Liechtenstein,2024-08-14,Bachelor,Student
+STU00095,Maria Gardner,johnsonanthony@example.net,36,Other,Cape Verde,2025-09-06,High School,Unemployed
+STU00096,Samuel Miller,browndana@example.org,34,Male,Germany,2024-06-19,Master,Unemployed
+STU00097,Victoria Lee,cookemily@example.com,35,Male,Ukraine,2025-09-09,Master,Student
+STU00098,Laurie Blackburn,shepardrichard@example.net,19,Other,Paraguay,2024-05-23,Master,Student
+STU00099,Philip Hernandez,christopher70@example.com,31,Other,New Caledonia,2024-09-01,Master,Student
+STU00100,Carrie Francis,collinsann@example.org,28,Male,Guam,2025-03-15,Bachelor,Unemployed
+STU00101,Angelica Conrad,wilsonchristopher@example.net,26,Male,Benin,2024-08-22,High School,Self-Employed
+STU00102,Tracy Wang,robinsonnicholas@example.org,45,Male,Turkey,2025-09-20,PhD,Employed
+STU00103,Ryan May,julierojas@example.com,19,Other,Austria,2025-01-11,Bachelor,Employed
+STU00104,Douglas Cunningham,mperez@example.com,29,Female,Turks and Caicos Islands,2024-09-01,Master,Self-Employed
+STU00105,Deanna Gonzales,burnsbeth@example.com,28,Other,Sierra Leone,2025-07-22,Master,Unemployed
+STU00106,Mark Decker,herringbrenda@example.org,34,Male,Mauritania,2025-05-29,PhD,Employed
+STU00107,Jessica Brewer DDS,jared88@example.net,45,Other,South Africa,2024-10-22,Master,Unemployed
+STU00108,Christine Robinson,anthony18@example.net,41,Female,Norfolk Island,2024-08-23,High School,Employed
+STU00109,Kevin Watson,cbarrett@example.com,25,Female,Reunion,2024-06-24,High School,Self-Employed
+STU00110,Steven Moore,pcook@example.org,18,Male,Colombia,2026-02-05,PhD,Self-Employed
+STU00111,John Lopez,gonzaleschristina@example.net,41,Male,Morocco,2025-08-29,PhD,Student
+STU00112,Kara Sanchez,carolyn76@example.com,21,Other,Armenia,2026-03-19,High School,Employed
+STU00113,Pamela Santana,fisherkim@example.net,34,Male,Iran,2025-06-16,Master,Unemployed
+STU00114,Christopher Turner,stephaniebradley@example.org,37,Male,Bulgaria,2025-08-06,PhD,Student
+STU00115,Amy Davis,laurieellis@example.org,32,Other,Kuwait,2024-04-09,Bachelor,Unemployed
+STU00116,Stephen Turner,lopezmichaela@example.com,41,Other,Bermuda,2025-09-20,High School,Unemployed
+STU00117,Justin Rowe,woodsmelvin@example.com,36,Female,Mexico,2025-08-24,Master,Student
+STU00118,Susan Barnett,wmccarthy@example.org,20,Male,Iceland,2024-07-11,PhD,Unemployed
+STU00119,Brandi Mejia,lori69@example.com,36,Female,Martinique,2024-05-31,Master,Unemployed
+STU00120,Patrick Willis II,katrinawood@example.com,38,Other,Macao,2025-12-01,PhD,Student
+STU00121,Nicole Melendez,devinlopez@example.org,37,Female,Gabon,2025-02-21,Master,Self-Employed
+STU00122,Matthew Simmons,larry70@example.com,28,Female,Zimbabwe,2025-02-11,Master,Student
+STU00123,Michael Flowers,wdrake@example.net,19,Male,Saint Martin,2024-06-22,High School,Self-Employed
+STU00124,Regina Smith,david86@example.net,25,Female,Korea,2024-04-17,High School,Student
+STU00125,Meagan Henderson,turnerjonathan@example.net,28,Other,Brazil,2025-06-24,Bachelor,Unemployed
+STU00126,Joanna Watson,ijoseph@example.com,34,Female,Bouvet Island (Bouvetoya),2025-11-04,Bachelor,Student
+STU00127,Ms. Janet Leonard,adamvaughan@example.net,27,Other,Nauru,2024-10-14,PhD,Employed
+STU00128,Lisa Brennan,swilliams@example.org,44,Other,British Virgin Islands,2026-01-03,High School,Student
+STU00129,Anthony Greene,johnny54@example.org,36,Male,Mauritius,2024-10-21,PhD,Student
+STU00130,Jason Griffin,cynthia91@example.com,32,Male,Saint Martin,2024-05-05,Bachelor,Student
+STU00131,Danielle Miller,martinezduane@example.com,23,Other,Jersey,2026-01-21,High School,Student
+STU00132,Jimmy Williamson,uwilliams@example.com,25,Male,Argentina,2024-07-25,Bachelor,Self-Employed
+STU00133,Margaret Macias,uhunt@example.org,34,Male,Guadeloupe,2026-02-15,High School,Student
+STU00134,Jenny Johnson,jennifer16@example.org,36,Male,South Africa,2024-08-27,Master,Employed
+STU00135,Eric Palmer,heatherwilliams@example.net,32,Female,Lebanon,2024-09-13,Bachelor,Unemployed
+STU00136,Denise Barker,joshuapowers@example.net,45,Female,Iran,2026-02-03,PhD,Student
+STU00137,Denise Russell,caseydiane@example.com,37,Female,Ethiopia,2025-03-13,Master,Unemployed
+STU00138,Madison Davis,andrewnguyen@example.org,31,Other,New Zealand,2024-11-05,Bachelor,Student
+STU00139,Samantha Matthews,amber78@example.org,41,Other,Guam,2024-12-13,High School,Self-Employed
+STU00140,Jeremy Murray,sclark@example.org,37,Male,Peru,2025-01-19,Master,Student
+STU00141,Matthew Duncan,welchanna@example.com,24,Other,Belize,2024-09-07,PhD,Unemployed
+STU00142,Mrs. Dorothy Stewart,njohnson@example.net,24,Other,Chad,2025-07-09,Master,Self-Employed
+STU00143,Jennifer Hubbard,angela73@example.com,30,Male,Uruguay,2025-05-06,Bachelor,Unemployed
+STU00144,Travis Martinez,hrobinson@example.net,27,Female,French Guiana,2024-08-17,PhD,Unemployed
+STU00145,Richard Navarro,wpierce@example.org,43,Male,Italy,2026-01-27,Bachelor,Self-Employed
+STU00146,Randy Mccoy,wayne86@example.org,33,Other,Togo,2025-01-29,Bachelor,Unemployed
+STU00147,Donna Middleton,sandrathompson@example.com,33,Female,Afghanistan,2025-05-03,High School,Unemployed
+STU00148,John Jackson,reyesdenise@example.com,32,Other,Isle of Man,2024-08-25,Bachelor,Self-Employed
+STU00149,Danny Lynch,greenejessica@example.org,30,Male,Greece,2025-06-28,Bachelor,Unemployed
+STU00150,Mario Cohen,andrew96@example.net,29,Other,Malawi,2025-12-31,Bachelor,Student
+STU00151,Candice Wood,gregorygiles@example.org,19,Male,Gibraltar,2024-07-14,Master,Self-Employed
+STU00152,Andre Lane,msanchez@example.com,20,Female,Dominican Republic,2025-11-12,High School,Employed
+STU00153,Kathryn Rodriguez,monica23@example.com,22,Female,Saint Helena,2026-03-13,High School,Unemployed
+STU00154,Andrew Rhodes,eatkins@example.com,45,Other,Eritrea,2026-01-14,Master,Unemployed
+STU00155,Michelle Lawson,gonzalesmaria@example.org,41,Male,French Guiana,2025-11-23,High School,Student
+STU00156,Molly Williams,gmoran@example.net,29,Female,Pakistan,2025-02-24,PhD,Self-Employed
+STU00157,Ashley Boone,bowenmichael@example.net,41,Male,Guadeloupe,2024-07-21,PhD,Unemployed
+STU00158,John Baker,dawn17@example.net,20,Other,Liechtenstein,2025-10-11,Master,Self-Employed
+STU00159,Grace Norris,kristin49@example.com,32,Other,Nepal,2024-05-05,PhD,Employed
+STU00160,Joseph Johnson,anna44@example.net,23,Other,Cayman Islands,2025-05-28,High School,Self-Employed
+STU00161,Micheal Nunez,julianeal@example.org,23,Male,New Caledonia,2024-11-08,Bachelor,Self-Employed
+STU00162,Mark Johnson,brandyhernandez@example.org,29,Other,Eritrea,2024-12-31,PhD,Employed
+STU00163,Sheila Black,kmontgomery@example.com,42,Female,Norway,2024-07-31,Master,Unemployed
+STU00164,Emily Brooks,hwong@example.com,39,Male,China,2025-03-28,High School,Self-Employed
+STU00165,Michael Brown,kylewalker@example.com,32,Female,New Caledonia,2025-10-29,Master,Employed
+STU00166,Marie Kelly,ohudson@example.org,20,Female,Tajikistan,2025-10-06,Master,Student
+STU00167,Rachel Villanueva,michaeljohnson@example.net,27,Other,Bolivia,2026-03-05,PhD,Unemployed
+STU00168,Denise Nixon,wallerbrian@example.net,44,Other,Mali,2024-10-07,PhD,Self-Employed
+STU00169,Patrick Norris,jeremylove@example.org,27,Female,Armenia,2026-03-25,High School,Unemployed
+STU00170,Donald Paul,escobardavid@example.com,44,Male,Bahamas,2024-09-07,PhD,Unemployed
+STU00171,Philip Woods,herrerakimberly@example.com,34,Female,Somalia,2025-07-16,Bachelor,Employed
+STU00172,Bruce Miller,corylawrence@example.net,31,Female,Libyan Arab Jamahiriya,2024-11-14,Bachelor,Unemployed
+STU00173,Jeffrey Stein,mwaters@example.net,42,Male,Sri Lanka,2025-07-17,PhD,Student
+STU00174,Wendy King,fguzman@example.net,31,Other,Christmas Island,2024-12-05,Master,Unemployed
+STU00175,Mr. Matthew Baker,matthewbyrd@example.net,26,Male,Georgia,2025-07-10,Master,Self-Employed
+STU00176,Peter White,floresterri@example.com,36,Female,Lithuania,2024-08-06,Bachelor,Unemployed
+STU00177,Jeffrey Torres,rpeterson@example.net,33,Other,Swaziland,2024-08-20,Master,Self-Employed
+STU00178,Pamela Lewis,luke87@example.org,20,Male,Poland,2024-11-14,Bachelor,Unemployed
+STU00179,Laura Moore,jamesfoster@example.org,28,Male,Timor-Leste,2024-08-02,Bachelor,Student
+STU00180,Erika Black,yvaldez@example.com,41,Male,Slovakia (Slovak Republic),2025-09-22,High School,Employed
+STU00181,Dennis Michael,nathan45@example.net,18,Male,Guinea,2025-12-06,PhD,Employed
+STU00182,Eric Elliott,zsmith@example.org,18,Other,Ireland,2024-12-23,Master,Self-Employed
+STU00183,Vanessa Wang,cardenasjames@example.net,45,Male,Saint Barthelemy,2024-10-13,Master,Student
+STU00184,Allison Simmons,jnguyen@example.net,45,Female,Cook Islands,2025-11-12,PhD,Unemployed
+STU00185,Jessica Hill,sanchezmark@example.com,38,Male,Western Sahara,2025-09-18,High School,Unemployed
+STU00186,Wesley Williams,twatts@example.com,36,Female,Egypt,2024-10-30,Master,Employed
+STU00187,Jaime Garcia,joshua57@example.com,20,Male,Bouvet Island (Bouvetoya),2025-03-19,PhD,Self-Employed
+STU00188,Angela Rowland,jholloway@example.net,26,Female,French Southern Territories,2025-06-02,PhD,Self-Employed
+STU00189,Jessica Murphy,angela40@example.org,25,Female,Sierra Leone,2025-10-23,PhD,Student
+STU00190,Melissa Stevenson,rebecca73@example.org,32,Female,Gibraltar,2025-03-17,High School,Self-Employed
+STU00191,Gary Byrd,jonathan02@example.org,40,Other,Norway,2025-02-03,Master,Employed
+STU00192,John Williams,durhamwilliam@example.org,19,Other,Mongolia,2025-02-22,Bachelor,Employed
+STU00193,Jonathan Yates,vcampbell@example.net,41,Male,Bangladesh,2025-09-27,Master,Unemployed
+STU00194,Valerie Norman,laurenmathis@example.org,22,Other,Montserrat,2026-02-12,Bachelor,Unemployed
+STU00195,Wendy Walton,dmeyers@example.com,21,Female,Tuvalu,2026-01-12,Master,Self-Employed
+STU00196,Marie Jones,shawn60@example.com,36,Other,Morocco,2024-11-09,Master,Self-Employed
+STU00197,Jean Smith,ronald43@example.net,38,Female,Peru,2025-10-22,High School,Student
+STU00198,Martha Gonzalez,patricia92@example.org,35,Male,Sierra Leone,2024-07-26,PhD,Self-Employed
+STU00199,Brian Ferguson,chanamber@example.org,34,Male,Greece,2026-01-05,Bachelor,Student
+STU00200,Mary Harris,rogernelson@example.org,40,Other,Sierra Leone,2024-12-24,High School,Student
+STU00201,Steven Gonzales,vjohnson@example.net,25,Female,Cote d'Ivoire,2025-01-12,PhD,Student
+STU00202,James Harris,hlawrence@example.org,26,Other,China,2025-04-14,Master,Employed
+STU00203,Kelli Martin,davidburns@example.net,24,Female,Guinea-Bissau,2025-10-09,High School,Student
+STU00204,Connor Galloway,timothy81@example.com,43,Other,Andorra,2024-04-14,PhD,Self-Employed
+STU00205,Jennifer Mathews,michael41@example.com,33,Female,Yemen,2025-12-19,PhD,Self-Employed
+STU00206,Zachary Miller,bliu@example.com,24,Male,Saint Lucia,2025-07-26,Bachelor,Employed
+STU00207,Charles Wright,andersoneric@example.net,26,Other,Latvia,2025-10-18,High School,Student
+STU00208,Robert Cline,nathan62@example.com,33,Male,China,2024-08-14,Bachelor,Self-Employed
+STU00209,Brittany Pacheco,michaelbuckley@example.org,22,Other,Antarctica (the territory South of 60 deg S),2025-04-07,Bachelor,Unemployed
+STU00210,Mario Stout,christy00@example.com,41,Female,Antarctica (the territory South of 60 deg S),2026-01-18,PhD,Employed
+STU00211,Shane Mcintyre,ryankathryn@example.net,22,Other,Malta,2024-08-11,PhD,Self-Employed
+STU00212,Gregory Walker,hmcneil@example.com,20,Female,Kyrgyz Republic,2026-03-28,PhD,Unemployed
+STU00213,Kimberly Taylor,collinsterrance@example.com,42,Male,Brunei Darussalam,2024-12-01,Bachelor,Unemployed
+STU00214,Tina Barnett,woodskaitlyn@example.net,34,Male,Congo,2024-07-09,High School,Employed
+STU00215,Renee Thomas,pauljennifer@example.com,19,Female,Tuvalu,2025-07-02,High School,Unemployed
+STU00216,David Blair,mark79@example.net,28,Other,Maldives,2025-06-04,Bachelor,Employed
+STU00217,Olivia Anderson,jbrooks@example.net,32,Other,Saint Pierre and Miquelon,2026-02-21,PhD,Unemployed
+STU00218,Taylor Cruz,bauertiffany@example.org,23,Other,Cambodia,2025-07-16,Bachelor,Employed
+STU00219,Cynthia Sanders,armstrongtimothy@example.com,45,Female,Comoros,2025-07-12,PhD,Unemployed
+STU00220,Laura Hayes,shawnbaker@example.com,29,Male,British Indian Ocean Territory (Chagos Archipelago),2025-10-05,Master,Student
+STU00221,Kayla Rogers,jonathanroman@example.com,36,Male,Sierra Leone,2025-05-15,PhD,Unemployed
+STU00222,Mary Peterson,bryan56@example.net,42,Other,Anguilla,2026-03-15,Master,Student
+STU00223,Darren Ellis,martinezjennifer@example.org,44,Male,Tunisia,2024-12-19,PhD,Self-Employed
+STU00224,Juan Ayers,raymondpugh@example.net,29,Other,Congo,2024-07-21,Master,Employed
+STU00225,Patty Gonzalez,alicia29@example.net,26,Female,Malta,2024-05-13,Bachelor,Unemployed
+STU00226,Kimberly Steele,nicholasgarcia@example.org,40,Other,North Macedonia,2025-07-16,High School,Unemployed
+STU00227,Sarah Potter,amberfriedman@example.com,21,Other,Togo,2024-09-03,High School,Student
+STU00228,Wayne Morales,asantana@example.com,21,Female,Lao People's Democratic Republic,2024-11-30,High School,Employed
+STU00229,Elizabeth Jones,jason99@example.org,42,Other,Bahamas,2025-10-13,High School,Employed
+STU00230,John Martin,petermoore@example.com,28,Other,India,2025-06-15,Master,Unemployed
+STU00231,Gregory Perez,donald61@example.net,23,Female,Saint Vincent and the Grenadines,2025-06-11,High School,Unemployed
+STU00232,Christine Thomas,kathleen01@example.net,38,Male,Georgia,2025-04-27,Master,Unemployed
+STU00233,Linda Hall,hevans@example.net,22,Female,Samoa,2025-06-28,Bachelor,Student
+STU00234,Spencer Webster,nancy06@example.com,26,Female,Bouvet Island (Bouvetoya),2025-07-11,High School,Unemployed
+STU00235,Christopher Mckinney,oblake@example.net,45,Other,Bosnia and Herzegovina,2024-06-12,High School,Student
+STU00236,Tina Grimes,mollyortega@example.net,26,Other,Jersey,2025-02-11,Master,Self-Employed
+STU00237,Sharon Ramirez,rebecca85@example.com,36,Female,Papua New Guinea,2025-12-11,Bachelor,Unemployed
+STU00238,Mrs. Ashley Shaffer,brendawalker@example.com,25,Male,Papua New Guinea,2024-10-20,High School,Self-Employed
+STU00239,Samantha Freeman DDS,qobrien@example.com,30,Female,Armenia,2025-06-22,PhD,Student
+STU00240,Rebecca Finley,wilsonkathryn@example.com,26,Female,Mozambique,2025-08-13,Bachelor,Employed
+STU00241,Jennifer Long,reedkristin@example.com,31,Other,Montserrat,2025-12-31,Bachelor,Employed
+STU00242,James Trujillo,bcaldwell@example.org,35,Male,Montenegro,2024-08-19,Bachelor,Student
+STU00243,Erin Carter,upham@example.com,45,Female,Thailand,2026-01-20,High School,Employed
+STU00244,Michael Gomez,joshuabowers@example.com,29,Other,Kuwait,2025-09-02,High School,Employed
+STU00245,Patricia Martin,joy52@example.com,35,Other,Togo,2024-06-12,Master,Self-Employed
+STU00246,Joshua Trujillo,leslietorres@example.net,41,Other,Bermuda,2025-07-20,Bachelor,Student
+STU00247,Jonathan Lopez,tharris@example.com,43,Female,Guernsey,2024-12-11,Bachelor,Self-Employed
+STU00248,Isaiah Moore,marcusrodriguez@example.net,44,Other,Georgia,2026-02-02,Master,Student
+STU00249,Kristina Sherman,raymonddominguez@example.org,36,Other,Bermuda,2024-06-14,PhD,Self-Employed
+STU00250,Sherri Sullivan,dustin58@example.com,34,Male,Indonesia,2024-07-15,PhD,Unemployed
+STU00251,Ryan Doyle,christina15@example.org,40,Other,Kenya,2025-12-03,PhD,Unemployed
+STU00252,Christopher Haney,simpsonmartha@example.org,39,Female,Ecuador,2026-01-08,PhD,Unemployed
+STU00253,Robert Thomas,john09@example.com,36,Male,Taiwan,2025-02-23,Master,Employed
+STU00254,Yvette Lee,melaniecarpenter@example.net,25,Other,Morocco,2026-01-18,Master,Self-Employed
+STU00255,Nicole Mann,linda46@example.com,40,Male,Haiti,2026-01-26,Bachelor,Student
+STU00256,Erica Kelly,marccarey@example.net,38,Male,Egypt,2025-11-11,Bachelor,Self-Employed
+STU00257,Anne Lowery,gnichols@example.net,18,Male,Denmark,2025-09-17,High School,Employed
+STU00258,Maria Spencer,stevenandrews@example.org,38,Other,Kuwait,2025-07-05,Bachelor,Unemployed
+STU00259,Jeffrey Benton Jr.,dhansen@example.com,32,Male,Lesotho,2026-01-03,PhD,Employed
+STU00260,Michael Jones,ashley09@example.com,37,Male,Jersey,2025-09-05,Bachelor,Unemployed
+STU00261,Victoria Lewis,scollins@example.net,42,Other,Gabon,2024-12-06,High School,Student
+STU00262,Sherri Shah,katiebaird@example.net,44,Other,Germany,2025-12-30,Bachelor,Employed
+STU00263,Amy Webster,hamptonchad@example.org,33,Other,Marshall Islands,2025-02-05,High School,Self-Employed
+STU00264,Cory Petty,maryjohnson@example.com,41,Female,Saint Lucia,2024-07-05,High School,Employed
+STU00265,Tracy Berry,yballard@example.net,21,Male,Lebanon,2024-07-19,Master,Employed
+STU00266,Brendan Kelly,fkoch@example.org,41,Female,Colombia,2024-10-16,High School,Student
+STU00267,Gregory Holland,morgankaren@example.net,36,Other,Equatorial Guinea,2024-04-23,Bachelor,Student
+STU00268,Vicki Brown,cody08@example.org,45,Female,Albania,2024-12-03,Bachelor,Employed
+STU00269,Robert Carroll,michele23@example.net,32,Other,Niger,2025-04-08,PhD,Unemployed
+STU00270,Vanessa Davis,carolberry@example.com,25,Male,Romania,2025-12-18,Bachelor,Unemployed
+STU00271,Katie Olsen,cjohnson@example.net,44,Female,Tuvalu,2026-03-10,Master,Employed
+STU00272,Renee Collins,daniel29@example.net,25,Male,Chad,2026-01-27,Master,Employed
+STU00273,Mr. Zachary Mora DVM,hbowers@example.net,20,Female,Micronesia,2024-05-26,PhD,Unemployed
+STU00274,Charles Horne,zlopez@example.org,39,Female,Guinea-Bissau,2024-05-21,Master,Unemployed
+STU00275,Mrs. Sarah Keller,abbottchristopher@example.net,41,Male,Gibraltar,2026-02-04,PhD,Unemployed
+STU00276,Michaela Boyd,justintaylor@example.org,23,Male,French Guiana,2026-02-28,PhD,Self-Employed
+STU00277,Jeffrey Miller,henrymarc@example.com,34,Other,New Zealand,2025-01-18,Bachelor,Student
+STU00278,Dr. Dustin Sutton Jr.,lopezchristopher@example.net,19,Female,San Marino,2026-01-27,PhD,Unemployed
+STU00279,Margaret Stevenson,williamskevin@example.org,23,Female,Guinea,2026-03-14,PhD,Unemployed
+STU00280,Roger Russo,williammaldonado@example.org,39,Other,United States Minor Outlying Islands,2024-09-12,Bachelor,Self-Employed
+STU00281,Cody Walker,charles37@example.org,27,Other,Montserrat,2025-07-21,Bachelor,Self-Employed
+STU00282,Thomas Harris,glassadam@example.org,44,Female,Palestinian Territory,2025-11-24,High School,Student
+STU00283,Victoria Benitez,nathanmonroe@example.org,45,Female,Cape Verde,2024-07-21,Bachelor,Student
+STU00284,Michael Macias,tbecker@example.net,18,Female,Georgia,2024-09-05,Bachelor,Student
+STU00285,Nancy Nelson,perryrobert@example.com,35,Male,Tajikistan,2026-01-27,PhD,Unemployed
+STU00286,Katherine Greene,xwilliams@example.com,25,Other,Brunei Darussalam,2025-08-06,Master,Employed
+STU00287,Mark Wilson,ijones@example.com,35,Male,Chad,2026-02-27,High School,Student
+STU00288,Michael Arias,smitchell@example.com,18,Other,Togo,2025-05-30,PhD,Unemployed
+STU00289,Bryan Carson,stephaniepeters@example.com,22,Other,Cook Islands,2024-07-10,Master,Employed
+STU00290,Julie Rodriguez MD,wlopez@example.net,23,Male,Sri Lanka,2024-05-28,Master,Self-Employed
+STU00291,Jacob Rodgers,charper@example.net,27,Other,Vietnam,2025-04-12,Bachelor,Unemployed
+STU00292,Patricia Hardy,carrollstacy@example.com,26,Other,Tokelau,2026-03-04,Master,Student
+STU00293,Hayley Gonzalez,myerseric@example.com,18,Other,Madagascar,2024-05-25,PhD,Unemployed
+STU00294,Cory Barrett,cjohnson@example.org,34,Female,Tajikistan,2024-10-05,PhD,Self-Employed
+STU00295,Kristin Thomas,brian16@example.net,38,Other,Martinique,2024-04-21,PhD,Self-Employed
+STU00296,Misty Morris,thomasdale@example.org,43,Male,Albania,2025-01-12,PhD,Student
+STU00297,Robin Mack,vincentkathleen@example.org,37,Other,Mongolia,2025-05-12,Bachelor,Unemployed
+STU00298,Roger Alvarez,ncampbell@example.com,26,Other,Korea,2026-02-03,Bachelor,Self-Employed
+STU00299,John Wright,jmendoza@example.com,31,Male,Mauritania,2026-01-11,Bachelor,Student
+STU00300,Dustin Simon,kkidd@example.com,32,Other,Saint Vincent and the Grenadines,2024-04-24,PhD,Student
+STU00301,Brianna Stevens,vanessamartinez@example.net,33,Female,Guinea,2024-09-08,Bachelor,Employed
+STU00302,Stephen Murray,ywallace@example.com,39,Male,Haiti,2024-12-11,PhD,Self-Employed
+STU00303,Brandi Moreno,jaylee@example.org,36,Female,Yemen,2026-01-07,High School,Self-Employed
+STU00304,Lisa Mccullough,tbrooks@example.org,23,Male,India,2024-07-21,Bachelor,Student
+STU00305,Matthew Evans,nwilliams@example.com,29,Other,Micronesia,2026-01-19,High School,Unemployed
+STU00306,Teresa Reynolds,njohnson@example.com,45,Female,Montenegro,2025-08-09,Bachelor,Student
+STU00307,Paul Elliott,danielleandrews@example.org,27,Male,Canada,2025-02-03,High School,Unemployed
+STU00308,Sean Anderson,wstewart@example.net,37,Female,Marshall Islands,2025-09-28,High School,Self-Employed
+STU00309,Megan Buchanan,smithsamantha@example.org,18,Female,Greenland,2025-12-23,High School,Unemployed
+STU00310,Steven Harris,susanparker@example.org,39,Male,Guyana,2025-07-08,Bachelor,Unemployed
+STU00311,Tanner Griffin,jane44@example.org,20,Other,Spain,2025-05-24,Bachelor,Self-Employed
+STU00312,Brittany Perry,jmoore@example.net,19,Female,Latvia,2025-09-02,High School,Student
+STU00313,Ryan Wright,beckdwayne@example.com,35,Male,Bhutan,2025-10-13,Bachelor,Employed
+STU00314,James Gray,katiewillis@example.com,38,Male,Venezuela,2025-02-25,Bachelor,Employed
+STU00315,Jillian Smith,kpotts@example.com,44,Other,Turks and Caicos Islands,2024-12-13,High School,Student
+STU00316,Jacob Thompson,erica21@example.net,30,Female,Congo,2026-03-12,Master,Self-Employed
+STU00317,Michael Rush,gomeztonya@example.com,27,Male,Andorra,2025-07-07,Master,Unemployed
+STU00318,Wendy Diaz,james48@example.org,42,Other,Liechtenstein,2024-11-27,High School,Self-Employed
+STU00319,Matthew Graves,shane65@example.org,23,Male,Faroe Islands,2025-10-09,PhD,Student
+STU00320,Judith Miller,andersontiffany@example.net,42,Male,Algeria,2025-09-28,Master,Employed
+STU00321,James Conway,sprice@example.net,39,Male,Faroe Islands,2025-08-31,Bachelor,Self-Employed
+STU00322,Robert Nash,vrussell@example.org,21,Female,Western Sahara,2024-12-18,PhD,Employed
+STU00323,Corey Campbell,gentrysamantha@example.org,25,Female,Sri Lanka,2025-08-09,PhD,Student
+STU00324,Jordan Wilson,lindarodriguez@example.org,29,Male,Christmas Island,2025-01-06,Master,Unemployed
+STU00325,Robert Maxwell,smithalexander@example.com,28,Male,Trinidad and Tobago,2026-02-02,Master,Student
+STU00326,Kevin Sheppard,vwelch@example.net,38,Female,Botswana,2025-06-30,Master,Student
+STU00327,Charles Hardin,lopezjennifer@example.org,25,Male,Afghanistan,2025-02-19,Bachelor,Self-Employed
+STU00328,Christine Love,hflores@example.org,20,Female,Lebanon,2025-11-27,Bachelor,Unemployed
+STU00329,Kathleen Mccarthy,rroberts@example.net,45,Female,Tonga,2025-12-29,Master,Employed
+STU00330,Jordan Miller,josehumphrey@example.net,37,Other,Comoros,2025-09-02,Master,Unemployed
+STU00331,Angela Lopez,katelyn32@example.com,38,Female,North Macedonia,2025-12-11,Bachelor,Student
+STU00332,Jason Davidson,ronaldsummers@example.net,41,Female,Dominican Republic,2025-05-01,High School,Unemployed
+STU00333,Tracy King,calvinbrown@example.com,27,Female,United Kingdom,2025-09-26,Bachelor,Self-Employed
+STU00334,Sabrina Miller,vsmith@example.net,29,Male,Benin,2024-11-27,High School,Employed
+STU00335,Suzanne Wolfe,carrolljessica@example.com,24,Female,Korea,2024-12-26,PhD,Unemployed
+STU00336,Jacqueline Evans,vedwards@example.org,22,Other,Denmark,2025-06-12,High School,Employed
+STU00337,Harry Marshall,ynguyen@example.com,28,Female,Kyrgyz Republic,2026-01-04,PhD,Student
+STU00338,Christian Rojas,bbarnes@example.org,22,Other,Solomon Islands,2024-11-26,High School,Unemployed
+STU00339,Lynn Ross MD,edwardshah@example.org,38,Female,Bhutan,2024-04-20,Bachelor,Student
+STU00340,Devin Gonzalez,tmyers@example.net,44,Male,Fiji,2024-09-22,Bachelor,Employed
+STU00341,Dr. Jeffrey Valentine,tonywade@example.com,29,Other,Botswana,2024-05-27,Master,Self-Employed
+STU00342,John Roberts,aprilsnyder@example.org,42,Other,Israel,2025-04-02,High School,Student
+STU00343,Lynn Morgan,gabriella69@example.org,21,Male,Netherlands Antilles,2024-07-12,High School,Unemployed
+STU00344,Nathaniel Roman,mikewaller@example.org,39,Female,Andorra,2025-03-01,Master,Self-Employed
+STU00345,Daniel Nguyen,reneeorr@example.net,35,Male,United States Virgin Islands,2026-01-28,PhD,Unemployed
+STU00346,Douglas Peterson,holly25@example.net,45,Male,Montserrat,2026-03-19,PhD,Unemployed
+STU00347,Kevin Young,tracyharrison@example.org,34,Male,Germany,2025-04-17,PhD,Employed
+STU00348,Paul Hanson,morenosteven@example.net,24,Male,Ethiopia,2024-05-27,PhD,Student
+STU00349,Corey Carrillo,michaelstrickland@example.com,35,Other,Egypt,2024-09-19,High School,Self-Employed
+STU00350,Henry Oliver,kristenfrye@example.com,24,Female,Germany,2025-06-25,High School,Employed
+STU00351,Samantha Brewer,phillipsbruce@example.org,43,Female,Malta,2025-11-13,PhD,Student
+STU00352,Richard Henderson,evansjames@example.com,26,Other,Anguilla,2024-04-30,Bachelor,Student
+STU00353,Jennifer Richardson,seanreyes@example.org,38,Male,Nepal,2025-02-27,Master,Student
+STU00354,Timothy Bryant,jasminechavez@example.org,22,Other,Namibia,2024-07-11,High School,Unemployed
+STU00355,Becky Parrish,uwood@example.net,19,Other,Honduras,2025-05-16,High School,Unemployed
+STU00356,Maria Foster,christie04@example.com,43,Other,Mongolia,2025-10-13,Bachelor,Student
+STU00357,Jorge Sharp,tylermcintosh@example.org,26,Male,Canada,2024-06-22,PhD,Student
+STU00358,Miguel Davis,teresa51@example.com,18,Other,Guam,2025-10-09,High School,Student
+STU00359,Joshua Warren DDS,jneal@example.org,43,Female,Suriname,2024-09-07,Master,Student
+STU00360,Phillip Melton,johnnewman@example.net,23,Male,Anguilla,2024-05-17,Master,Student
+STU00361,Courtney Williams,katherinedodson@example.org,31,Female,Macao,2024-11-28,Bachelor,Student
+STU00362,Mark Foster,travis68@example.org,27,Other,Armenia,2024-09-02,PhD,Employed
+STU00363,Dave Henry,jacqueline95@example.net,24,Other,United Arab Emirates,2025-12-06,Bachelor,Student
+STU00364,Christian Smith,joseph58@example.com,39,Male,Cayman Islands,2025-12-10,Bachelor,Self-Employed
+STU00365,Dawn Gonzalez,philip47@example.org,34,Male,Kiribati,2025-06-24,PhD,Student
+STU00366,Kayla Sullivan,danielhughes@example.org,18,Female,Samoa,2026-02-20,Bachelor,Unemployed
+STU00367,Peter Fitzgerald,marissa39@example.com,36,Female,Guyana,2025-03-14,Bachelor,Student
+STU00368,Crystal Zamora,jay04@example.org,18,Male,Cuba,2025-12-06,Bachelor,Self-Employed
+STU00369,Christine Arroyo,dcortez@example.com,20,Male,Netherlands,2025-10-12,Master,Student
+STU00370,Karen Carlson,chrisrodriguez@example.org,45,Other,Timor-Leste,2024-05-01,PhD,Unemployed
+STU00371,Adam Hill,turnerpatrick@example.net,32,Female,Cayman Islands,2024-06-19,PhD,Self-Employed
+STU00372,Matthew Maddox,charles60@example.com,21,Male,Sierra Leone,2024-05-04,PhD,Student
+STU00373,Charles Bryant,davidfields@example.net,20,Male,Somalia,2024-05-01,PhD,Self-Employed
+STU00374,Karen Smith,hardyspencer@example.net,42,Other,Puerto Rico,2025-05-21,Master,Self-Employed
+STU00375,Michael Castillo,jasonsanders@example.com,25,Female,Antarctica (the territory South of 60 deg S),2024-05-06,High School,Employed
+STU00376,John Thompson,raybradley@example.org,31,Male,Sierra Leone,2026-01-09,Master,Student
+STU00377,Michelle Harris,andrew43@example.org,30,Male,Portugal,2025-03-02,Master,Unemployed
+STU00378,Matthew Russo,shansen@example.com,26,Female,Somalia,2024-09-25,High School,Student
+STU00379,Amber Cox,stephen78@example.org,34,Male,Holy See (Vatican City State),2025-08-03,High School,Unemployed
+STU00380,Juan Thomas,richard96@example.com,30,Female,Lao People's Democratic Republic,2026-03-28,High School,Employed
+STU00381,Brittany Chambers,alowe@example.com,22,Male,Jersey,2024-06-11,PhD,Self-Employed
+STU00382,Chad Middleton,ihayes@example.net,41,Male,Chad,2026-01-19,PhD,Student
+STU00383,Thomas Mcgrath,carolfernandez@example.net,28,Female,Cayman Islands,2025-12-22,Master,Employed
+STU00384,Vanessa Sparks,amiller@example.org,39,Male,Macao,2025-05-11,High School,Unemployed
+STU00385,Laura Scott,jodisutton@example.com,32,Female,Liechtenstein,2024-07-03,Master,Self-Employed
+STU00386,Rebecca Kelley,zmills@example.org,25,Other,Morocco,2024-12-21,Bachelor,Unemployed
+STU00387,Paul Rodriguez,smoore@example.org,35,Female,Saint Barthelemy,2024-04-09,Bachelor,Student
+STU00388,Kathy Rodriguez,ruthneal@example.com,20,Other,Dominican Republic,2025-10-13,Master,Unemployed
+STU00389,Daniel Little,andrewjohnson@example.org,28,Other,Cote d'Ivoire,2024-08-22,High School,Employed
+STU00390,Andrea King,hendersonmichael@example.com,29,Male,Algeria,2025-09-01,Master,Employed
+STU00391,James Clark,eharvey@example.net,21,Male,Nicaragua,2025-06-16,Master,Unemployed
+STU00392,Vanessa Porter,anthony76@example.net,25,Male,Sierra Leone,2024-06-19,Bachelor,Student
+STU00393,Lisa Bell,yvang@example.org,25,Female,Libyan Arab Jamahiriya,2025-10-15,Bachelor,Unemployed
+STU00394,David Davis,jenniferbaldwin@example.org,32,Male,Korea,2025-01-11,Bachelor,Student
+STU00395,Larry Harrison,kyle73@example.net,18,Female,Isle of Man,2024-06-17,PhD,Employed
+STU00396,Linda Leonard,wallssean@example.net,34,Other,Cocos (Keeling) Islands,2025-03-13,Bachelor,Unemployed
+STU00397,Jasmine Buckley,kingdavid@example.net,23,Female,Liechtenstein,2024-08-14,Master,Employed
+STU00398,Scott Williams,ronald21@example.org,24,Male,Liberia,2025-03-30,High School,Student
+STU00399,Reginald Roman,kelseywilliams@example.org,24,Male,Czech Republic,2024-12-13,PhD,Self-Employed
+STU00400,Sarah Perez,hstokes@example.org,24,Female,Chad,2024-07-19,Bachelor,Student
+STU00401,Theresa Hart,ycrawford@example.net,32,Female,Jersey,2024-04-24,PhD,Self-Employed
+STU00402,Melissa Reid,barnesarthur@example.com,19,Other,Moldova,2025-09-04,Master,Unemployed
+STU00403,Brandon Rich,thomas83@example.org,23,Male,British Indian Ocean Territory (Chagos Archipelago),2024-04-26,High School,Unemployed
+STU00404,Cody Gonzalez,angela71@example.net,36,Other,Colombia,2025-06-08,PhD,Unemployed
+STU00405,Andrew Harris,dean60@example.com,39,Other,Bahamas,2025-04-16,Master,Unemployed
+STU00406,Joseph Adams,turnerlisa@example.com,27,Male,Uruguay,2024-10-04,PhD,Employed
+STU00407,Mr. Matthew Mendoza,coryhughes@example.net,18,Female,Niue,2025-05-09,High School,Self-Employed
+STU00408,Brianna Martinez,michellejones@example.net,25,Other,Barbados,2025-05-27,High School,Student
+STU00409,Paul Franco,sharon46@example.org,38,Other,Sao Tome and Principe,2025-02-18,Bachelor,Employed
+STU00410,Phyllis Johnson,peter93@example.net,34,Male,United States of America,2024-07-11,Master,Unemployed
+STU00411,Rachel Oneal,johnboyd@example.com,32,Male,Sierra Leone,2024-06-02,PhD,Self-Employed
+STU00412,Jennifer Hoffman,kendrawilliams@example.com,43,Female,India,2024-10-31,PhD,Self-Employed
+STU00413,Victoria Peterson,samantha78@example.com,30,Male,Hungary,2025-10-14,Master,Student
+STU00414,Leah Castro,taylordavis@example.com,40,Male,Guam,2025-05-03,PhD,Self-Employed
+STU00415,Amy Soto,nancy98@example.org,45,Male,Germany,2026-02-15,Bachelor,Unemployed
+STU00416,David Lee,james58@example.net,43,Female,Isle of Man,2024-10-29,Bachelor,Unemployed
+STU00417,Mckenzie Lopez,leahbarker@example.org,35,Other,Poland,2025-08-23,Master,Employed
+STU00418,Kristen Harris,lperkins@example.org,22,Male,Saint Kitts and Nevis,2025-09-19,High School,Unemployed
+STU00419,David George,isaac75@example.org,29,Female,India,2025-03-29,Master,Self-Employed
+STU00420,Keith Medina,jonathanjones@example.org,30,Other,Honduras,2025-11-24,High School,Student
+STU00421,Mrs. Chelsea Villa,jgibson@example.net,33,Other,Swaziland,2024-10-28,Bachelor,Employed
+STU00422,Christina Williams,ffuller@example.net,31,Other,Botswana,2025-03-23,Master,Student
+STU00423,Bryan White,kathleen00@example.org,29,Female,Fiji,2024-06-26,High School,Self-Employed
+STU00424,Bethany Davis,qharris@example.net,28,Female,Bahamas,2024-04-16,High School,Self-Employed
+STU00425,Marcus Ramirez,oallen@example.net,38,Other,Netherlands,2025-05-31,High School,Self-Employed
+STU00426,Juan Randall,andrewsilva@example.org,22,Male,Chile,2025-11-18,High School,Unemployed
+STU00427,Christina Jensen,christopheryang@example.com,40,Male,Sudan,2025-03-30,Master,Student
+STU00428,Ryan Walker,llynch@example.org,28,Male,Fiji,2024-06-26,Master,Unemployed
+STU00429,Eric Riley,ogriffin@example.org,34,Male,Tanzania,2024-06-07,Bachelor,Self-Employed
+STU00430,Jessica Stevenson,wjefferson@example.com,19,Male,Angola,2025-05-09,PhD,Employed
+STU00431,Stephen Henry,marc78@example.net,19,Male,Iceland,2025-12-12,Master,Employed
+STU00432,Jacqueline Warner,zjackson@example.org,19,Other,Cuba,2024-11-24,Bachelor,Unemployed
+STU00433,David Roberts,nicolasrich@example.org,32,Female,Poland,2026-02-21,Master,Student
+STU00434,Michael Chavez,pricemichael@example.com,34,Male,Angola,2025-04-02,Master,Self-Employed
+STU00435,Susan Davis,michael45@example.com,36,Other,Lesotho,2024-08-02,Master,Student
+STU00436,Kevin Holmes,meghanwerner@example.com,33,Other,Australia,2025-10-17,High School,Unemployed
+STU00437,Thomas Davis,wrightalicia@example.com,20,Female,Korea,2024-07-26,High School,Unemployed
+STU00438,Jeffrey Pitts,jeremycollins@example.net,31,Female,Bangladesh,2024-09-25,PhD,Employed
+STU00439,Anthony Pena,keithharrison@example.com,20,Male,Ukraine,2024-08-09,PhD,Employed
+STU00440,Tyrone Morrison,jonescraig@example.org,34,Other,Martinique,2024-07-08,Master,Employed
+STU00441,Philip Cummings,amandalopez@example.org,44,Female,Greece,2025-12-25,PhD,Student
+STU00442,Kayla Smith,longgary@example.com,24,Female,Cape Verde,2025-12-18,PhD,Unemployed
+STU00443,Lee Richardson,steven72@example.net,21,Male,Bouvet Island (Bouvetoya),2025-09-12,PhD,Self-Employed
+STU00444,Larry Williams,staylor@example.com,18,Female,Marshall Islands,2025-11-13,PhD,Unemployed
+STU00445,Jennifer Weaver,doneal@example.net,42,Male,Western Sahara,2025-04-23,Bachelor,Student
+STU00446,Laura Monroe,hwalton@example.com,39,Male,Chad,2025-04-11,Master,Unemployed
+STU00447,Dr. Daniel Greene MD,darrell66@example.com,41,Male,French Southern Territories,2025-01-07,Bachelor,Unemployed
+STU00448,Craig Smith,whampton@example.org,40,Male,Korea,2026-01-01,Master,Student
+STU00449,Nicole Banks,randy20@example.org,26,Other,United Kingdom,2025-02-23,Bachelor,Self-Employed
+STU00450,Mr. John Khan,danderson@example.org,43,Female,Yemen,2024-07-24,Bachelor,Self-Employed
+STU00451,Ashley Brooks,steven66@example.org,36,Female,Netherlands Antilles,2024-11-09,PhD,Employed
+STU00452,Kristen Williams,vjones@example.org,41,Female,Georgia,2026-02-11,Master,Self-Employed
+STU00453,Willie Thomas,brian83@example.net,26,Female,Mali,2025-01-05,Bachelor,Unemployed
+STU00454,Geoffrey Austin,christy45@example.org,37,Female,Spain,2025-04-21,PhD,Employed
+STU00455,Jeffrey Freeman,estradaamy@example.net,26,Female,Mongolia,2025-04-13,Master,Unemployed
+STU00456,Mrs. Samantha Rivera DDS,douglas31@example.net,19,Male,Hungary,2024-10-27,Master,Employed
+STU00457,Andrew Smith,jameshudson@example.com,31,Male,South Georgia and the South Sandwich Islands,2025-12-03,High School,Employed
+STU00458,Joshua Scott,aaronjones@example.org,19,Female,Estonia,2025-09-22,High School,Self-Employed
+STU00459,Colleen Herman,sandysnyder@example.org,35,Female,Paraguay,2025-03-10,Master,Employed
+STU00460,Lisa Krause,qsosa@example.net,33,Male,Moldova,2025-05-14,High School,Student
+STU00461,Natalie Welch,alison98@example.net,45,Male,Fiji,2025-11-19,High School,Unemployed
+STU00462,Danielle Briggs,vwebb@example.net,25,Other,French Southern Territories,2025-04-08,High School,Employed
+STU00463,Jennifer Crane,laurie41@example.org,19,Female,Moldova,2024-09-19,High School,Student
+STU00464,Shirley Wright,saraterry@example.net,30,Male,Guyana,2025-02-04,PhD,Self-Employed
+STU00465,Keith Evans,franciscoolson@example.net,25,Male,Bahrain,2025-10-27,Master,Self-Employed
+STU00466,Amy Sullivan,emoore@example.org,43,Other,Grenada,2026-02-23,High School,Unemployed
+STU00467,David Koch,zreilly@example.net,29,Male,Croatia,2025-01-30,Bachelor,Employed
+STU00468,Donna Bishop,matthewharper@example.net,37,Male,Honduras,2025-12-23,High School,Student
+STU00469,Bradley Mclaughlin,ambervasquez@example.org,25,Female,Vietnam,2026-03-19,High School,Employed
+STU00470,Maria Braun,ruizantonio@example.com,27,Other,Tajikistan,2025-01-02,Bachelor,Student
+STU00471,Samantha Howard,williamspatricia@example.com,34,Female,Bolivia,2024-05-07,Bachelor,Self-Employed
+STU00472,Virginia Mendez,kristineprince@example.com,19,Male,Botswana,2024-10-21,Bachelor,Self-Employed
+STU00473,Russell Jones,dillon79@example.com,33,Other,Cayman Islands,2025-07-23,PhD,Student
+STU00474,Anne Obrien,antonio52@example.net,32,Other,Lebanon,2025-11-22,Master,Student
+STU00475,Jordan Carter,pbutler@example.com,26,Male,Papua New Guinea,2024-12-03,Bachelor,Unemployed
+STU00476,Charles Moore,brownnancy@example.org,35,Other,Botswana,2026-04-08,Bachelor,Student
+STU00477,Nathan Campbell,gwendolyn93@example.net,27,Female,Liberia,2025-02-21,PhD,Employed
+STU00478,Matthew Bender,sharon37@example.net,39,Other,Antigua and Barbuda,2024-12-31,High School,Unemployed
+STU00479,Gregory Williams,perry77@example.net,45,Male,Indonesia,2025-11-02,High School,Student
+STU00480,Joanna Cabrera,wbarrett@example.net,39,Female,Trinidad and Tobago,2025-09-02,Master,Student
+STU00481,Richard Best,vdavis@example.org,39,Male,Armenia,2026-01-15,PhD,Unemployed
+STU00482,Larry Krueger,jenniferbutler@example.org,37,Female,Norfolk Island,2024-12-28,Bachelor,Unemployed
+STU00483,Lucas Rogers,webbmadison@example.net,42,Female,Cook Islands,2024-09-10,Master,Self-Employed
+STU00484,Matthew Doyle,alyssa89@example.net,30,Female,Vanuatu,2025-06-30,High School,Employed
+STU00485,Travis Mcbride,lmaynard@example.net,37,Female,French Guiana,2025-05-07,High School,Student
+STU00486,Amanda Cook,ylawrence@example.org,24,Male,Lebanon,2025-12-06,Bachelor,Employed
+STU00487,John Wilkerson,sandradavenport@example.org,20,Male,Korea,2024-10-19,PhD,Student
+STU00488,Sarah Montoya,ralph08@example.org,41,Male,Armenia,2024-09-18,Bachelor,Unemployed
+STU00489,Cynthia Smith,benjaminleah@example.com,32,Male,Mauritania,2025-11-25,PhD,Student
+STU00490,Jennifer Shaw,kayla07@example.net,43,Male,Croatia,2025-05-04,Bachelor,Unemployed
+STU00491,Penny Wyatt,vcastro@example.org,30,Male,Mayotte,2025-08-01,Master,Unemployed
+STU00492,Jeffrey Murphy,staceysmith@example.org,20,Other,Venezuela,2025-10-08,Master,Self-Employed
+STU00493,Matthew Powers,bmartin@example.org,37,Male,Saint Lucia,2024-08-06,Master,Student
+STU00494,Timothy Collins,joneseric@example.org,22,Other,Timor-Leste,2026-02-23,Master,Student
+STU00495,Andrea Townsend,tammy17@example.com,21,Female,British Virgin Islands,2025-04-09,PhD,Self-Employed
+STU00496,Kimberly Dixon,rcontreras@example.org,32,Male,Guinea-Bissau,2025-11-06,Master,Employed
+STU00497,James Lopez,jessica91@example.org,39,Female,Central African Republic,2024-07-24,PhD,Self-Employed
+STU00498,Robert Nichols,writter@example.net,31,Other,Guernsey,2024-04-30,PhD,Student
+STU00499,Rebecca Reynolds,mlewis@example.net,32,Other,Northern Mariana Islands,2025-03-28,High School,Employed
+STU00500,Melissa Cherry,marypeck@example.com,33,Female,Moldova,2025-10-24,Master,Student

@@ -17,7 +17,7 @@ class PredictiveAnalytics:
     def predict_course_completion(self):
         """Predict likelihood of course completion based on early progress"""
         print("\n" + "="*60)
-        print("🔮 Course Completion Prediction")
+        print("Course Completion Prediction")
         print("="*60 + "\n")
         
         enrollments = self.datasets['enrollments']
@@ -70,7 +70,7 @@ class PredictiveAnalytics:
         ).show(30, truncate=False)
         
         # Accuracy check for completed courses
-        print("\n📊 Prediction Accuracy (for completed courses):")
+        print("\nPrediction Accuracy (for completed courses):")
         accuracy = predictions.filter(col('status') == 'Completed') \
             .groupBy('predicted_completion') \
             .count() \
@@ -83,7 +83,7 @@ class PredictiveAnalytics:
     def identify_struggling_students_early(self):
         """Identify students who might struggle based on early performance"""
         print("\n" + "="*60)
-        print("⚠️  Early Struggling Student Identification")
+        print("Early Struggling Student Identification")
         print("="*60 + "\n")
         
         progress = self.datasets['progress']
@@ -147,7 +147,7 @@ class PredictiveAnalytics:
     def recommend_courses(self, student_id):
         """Recommend courses to a student based on their history"""
         print("\n" + "="*60)
-        print(f"💡 Course Recommendations for Student {student_id}")
+        print(f"Course Recommendations for Student {student_id}")
         print("="*60 + "\n")
         
         enrollments = self.datasets['enrollments']
@@ -158,7 +158,7 @@ class PredictiveAnalytics:
         student_enrollments = enrollments.filter(col('student_id') == student_id)
         
         if student_enrollments.count() == 0:
-            print(f"❌ Student {student_id} not found!")
+            print(f"Student {student_id} not found!")
             return None
         
         completed_courses = student_enrollments.filter(col('status') == 'Completed') \
@@ -222,7 +222,7 @@ class PredictiveAnalytics:
     def predict_study_time_needed(self):
         """Predict study time needed for course completion"""
         print("\n" + "="*60)
-        print("⏱️  Study Time Prediction")
+        print("Study Time Prediction")
         print("="*60 + "\n")
         
         progress = self.datasets['progress']
@@ -271,7 +271,7 @@ class PredictiveAnalytics:
         result.show(20, truncate=False)
         
         # Summary
-        print("\n📊 Summary:")
+        print("\nSummary:")
         result.select(
             round(avg('time_variance_pct'), 2).alias('avg_time_variance_pct')
         ).show()
@@ -281,7 +281,7 @@ class PredictiveAnalytics:
     def generate_predictive_report(self):
         """Generate comprehensive predictive analytics report"""
         print("\n" + "="*70)
-        print("📋 COMPREHENSIVE PREDICTIVE ANALYTICS REPORT")
+        print("COMPREHENSIVE PREDICTIVE ANALYTICS REPORT")
         print("="*70 + "\n")
         
         results = {}
@@ -295,7 +295,7 @@ class PredictiveAnalytics:
         # results['recommendations'] = self.recommend_courses('STU00001')
         
         print("\n" + "="*70)
-        print("✅ Predictive Analytics Report Generated Successfully!")
+        print("Predictive Analytics Report Generated Successfully!")
         print("="*70 + "\n")
         
         return results
@@ -314,7 +314,7 @@ def main():
         try:
             datasets = loader.load_all_datasets('/user/elearning/raw', source='hdfs')
         except:
-            print("⚠️  HDFS not available, loading from local...")
+            print("HDFS not available, loading from local...")
             datasets = loader.load_all_datasets('data/raw', source='local')
         
         # Create analytics instance
@@ -324,7 +324,7 @@ def main():
         report = analytics.generate_predictive_report()
         
         # Save results
-        print("\n💾 Saving results...")
+        print("\nSaving results...")
         
         output_base = 'data/results/predictive_analytics'
         
@@ -338,14 +338,14 @@ def main():
             f'{output_base}/struggling_students'
         )
         
-        print("✅ All results saved successfully!")
+        print("All results saved successfully!")
         
         # Example: Get recommendations for a specific student
         print("\n" + "="*60)
         analytics.recommend_courses('STU00001')
         
     except Exception as e:
-        print(f"\n❌ Error: {e}")
+        print(f"\nError: {e}")
         import traceback
         traceback.print_exc()
     

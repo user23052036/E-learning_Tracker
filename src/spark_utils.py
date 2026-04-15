@@ -13,7 +13,8 @@ class SparkConfig:
     """Spark Session Configuration"""
     
     @staticmethod
-    def create_spark_session(app_name="ELearningTracker", master="local[*]"):
+    def create_spark_session(app_name="ELearningTracker", master="local[*]",
+                             hdfs_namenode="hdfs://localhost:9000"):
         """Create and configure Spark session"""
         print("\n" + "="*60)
         print(f"Initializing Spark Session: {app_name}")
@@ -28,14 +29,16 @@ class SparkConfig:
             .config("spark.executor.memory", "2g") \
             .config("spark.sql.shuffle.partitions", "8") \
             .config("spark.default.parallelism", "4") \
+            .config("spark.hadoop.fs.defaultFS", hdfs_namenode) \
             .getOrCreate()
         
         # Set log level
         spark.sparkContext.setLogLevel("WARN")
         
-        print(f"✅ Spark {spark.version} session created successfully!")
+        print(f"Spark {spark.version} session created successfully!")
         print(f"   App Name: {app_name}")
         print(f"   Master: {master}")
+        print(f"   Default Filesystem: {hdfs_namenode}")
         print(f"   Driver Memory: 2g")
         print(f"   Executor Memory: 2g")
         print("="*60 + "\n")
@@ -45,9 +48,9 @@ class SparkConfig:
     @staticmethod
     def stop_spark_session(spark):
         """Stop Spark session"""
-        print("\n🛑 Stopping Spark session...")
+        print("\nStopping Spark session...")
         spark.stop()
-        print("✅ Spark session stopped\n")
+        print("Spark session stopped\n")
 
 
 class SparkDataLoader:
@@ -58,26 +61,31 @@ class SparkDataLoader:
     
     def load_csv_from_hdfs(self, hdfs_path, schema=None):
         """Load CSV from HDFS"""
-        print(f"📂 Loading: {hdfs_path}")
+        print(f"Loading: {hdfs_path}")
         
         if schema:
             df = self.spark.read.csv(hdfs_path, header=True, schema=schema)
         else:
             df = self.spark.read.csv(hdfs_path, header=True, inferSchema=True)
         
-        print(f"✅ Loaded {df.count()} records")
+        print(f"Loaded {df.count()} records")
         return df
     
     def load_csv_from_local(self, local_path, schema=None):
         """Load CSV from local filesystem"""
-        print(f"📂 Loading: {local_path}")
+        # Explicitly prefix with file:// so the local filesystem is used
+        # regardless of what spark.hadoop.fs.defaultFS is set to
+        if not local_path.startswith("file://"):
+            local_path = f"file://{os.path.abspath(local_path)}"
+
+        print(f"Loading: {local_path}")
         
         if schema:
             df = self.spark.read.csv(local_path, header=True, schema=schema)
         else:
             df = self.spark.read.csv(local_path, header=True, inferSchema=True)
         
-        print(f"✅ Loaded {df.count()} records")
+        print(f"Loaded {df.count()} records")
         return df
     
     def load_all_datasets(self, base_path, source='local'):
@@ -90,15 +98,14 @@ class SparkDataLoader:
         files = ['students', 'courses', 'modules', 'enrollments', 'progress', 'assessments']
         
         for file in files:
+            path = f"{base_path}/{file}.csv"
             if source == 'hdfs':
-                path = f"{base_path}/{file}.csv"
                 datasets[file] = self.load_csv_from_hdfs(path)
             else:
-                path = f"{base_path}/{file}.csv"
                 datasets[file] = self.load_csv_from_local(path)
         
         print("\n" + "="*60)
-        print(f"✅ Loaded {len(datasets)} datasets successfully!")
+        print(f"Loaded {len(datasets)} datasets successfully!")
         print("="*60 + "\n")
         
         return datasets
@@ -111,7 +118,7 @@ class SparkUtils:
     def display_dataframe_info(df, name="DataFrame"):
         """Display comprehensive DataFrame information"""
         print("\n" + "="*60)
-        print(f"📊 {name} Information")
+        print(f"{name} Information")
         print("="*60 + "\n")
         
         print(f"Total Records: {df.count()}")
@@ -128,14 +135,14 @@ class SparkUtils:
     @staticmethod
     def get_basic_stats(df):
         """Get basic statistics for numeric columns"""
-        print("\n📈 Basic Statistics:")
+        print("\nBasic Statistics:")
         print("-" * 60)
         df.describe().show()
     
     @staticmethod
     def check_null_values(df):
         """Check for null values in DataFrame"""
-        print("\n🔍 Null Value Check:")
+        print("\nNull Value Check:")
         print("-" * 60)
         
         null_counts = df.select([
@@ -147,42 +154,42 @@ class SparkUtils:
     @staticmethod
     def save_to_csv(df, output_path, mode='overwrite'):
         """Save DataFrame to CSV"""
-        print(f"\n💾 Saving to: {output_path}")
+        print(f"\nSaving to: {output_path}")
         df.coalesce(1).write.mode(mode).option('header', 'true').csv(output_path)
-        print("✅ Saved successfully!")
+        print("Saved successfully!")
     
     @staticmethod
     def save_to_parquet(df, output_path, mode='overwrite', partition_by=None):
         """Save DataFrame to Parquet format"""
-        print(f"\n💾 Saving to Parquet: {output_path}")
+        print(f"\nSaving to Parquet: {output_path}")
         
         if partition_by:
             df.write.mode(mode).partitionBy(partition_by).parquet(output_path)
         else:
             df.write.mode(mode).parquet(output_path)
         
-        print("✅ Saved successfully!")
+        print("Saved successfully!")
     
     @staticmethod
     def cache_dataframe(df, name="DataFrame"):
         """Cache DataFrame in memory"""
-        print(f"\n🔄 Caching {name}...")
+        print(f"\nCaching {name}...")
         df.cache()
         count = df.count()  # Trigger caching
-        print(f"✅ Cached {count} records")
+        print(f"Cached {count} records")
         return df
     
     @staticmethod
     def create_temp_view(df, view_name):
         """Create temporary SQL view"""
-        print(f"\n📋 Creating temporary view: {view_name}")
+        print(f"\nCreating temporary view: {view_name}")
         df.createOrReplaceTempView(view_name)
-        print("✅ View created!")
+        print("View created!")
     
     @staticmethod
     def execute_sql(spark, query, show_result=True):
         """Execute SQL query and return result"""
-        print(f"\n🔍 Executing SQL Query:")
+        print(f"\nExecuting SQL Query:")
         print("-" * 60)
         print(query)
         print("-" * 60)
@@ -197,7 +204,7 @@ class SparkUtils:
     @staticmethod
     def add_date_features(df, date_column):
         """Add date-based features (year, month, day, day_of_week)"""
-        print(f"\n📅 Adding date features from: {date_column}")
+        print(f"\nAdding date features from: {date_column}")
         
         df = df.withColumn('year', year(col(date_column))) \
                .withColumn('month', month(col(date_column))) \
@@ -205,13 +212,13 @@ class SparkUtils:
                .withColumn('day_of_week', dayofweek(col(date_column))) \
                .withColumn('quarter', quarter(col(date_column)))
         
-        print("✅ Date features added!")
+        print("Date features added!")
         return df
     
     @staticmethod
     def get_column_distribution(df, column_name, top_n=10):
         """Get value distribution for a column"""
-        print(f"\n📊 Distribution of '{column_name}' (Top {top_n}):")
+        print(f"\nDistribution of '{column_name}' (Top {top_n}):")
         print("-" * 60)
         
         df.groupBy(column_name) \
@@ -223,14 +230,14 @@ class SparkUtils:
     @staticmethod
     def filter_date_range(df, date_column, start_date, end_date):
         """Filter DataFrame by date range"""
-        print(f"\n🗓️  Filtering {date_column} between {start_date} and {end_date}")
+        print(f"\nFiltering {date_column} between {start_date} and {end_date}")
         
         filtered_df = df.filter(
             (col(date_column) >= start_date) & 
             (col(date_column) <= end_date)
         )
         
-        print(f"✅ Filtered to {filtered_df.count()} records")
+        print(f"Filtered to {filtered_df.count()} records")
         return filtered_df
 
 
@@ -240,14 +247,14 @@ class PerformanceMonitor:
     @staticmethod
     def show_execution_plan(df):
         """Show DataFrame execution plan"""
-        print("\n📋 Execution Plan:")
+        print("\nExecution Plan:")
         print("-" * 60)
         df.explain(extended=True)
     
     @staticmethod
     def get_partition_info(df):
         """Get partition information"""
-        print("\n🔢 Partition Information:")
+        print("\nPartition Information:")
         print("-" * 60)
         print(f"Number of Partitions: {df.rdd.getNumPartitions()}")
         
@@ -275,7 +282,7 @@ if __name__ == "__main__":
         SparkUtils.check_null_values(datasets['students'])
         
     except Exception as e:
-        print(f"⚠️  Could not load data: {e}")
+        print(f"Could not load data: {e}")
         print("Please run data_generator.py first to create datasets")
     
     # Stop Spark

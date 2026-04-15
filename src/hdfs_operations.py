@@ -26,7 +26,7 @@ class HDFSManager:
             )
             return result.stdout
         except subprocess.CalledProcessError as e:
-            print(f"❌ Error executing command: {command}")
+            print(f"Error executing command: {command}")
             print(f"Error: {e.stderr}")
             return None
     
@@ -49,7 +49,7 @@ class HDFSManager:
             print(f"Creating: {directory}")
             self.run_hdfs_command(f'hdfs dfs -mkdir -p {directory}')
         
-        print("\n✅ HDFS directories created successfully!")
+        print("\nHDFS directories created successfully!")
         self.list_hdfs_structure()
     
     def upload_data_to_hdfs(self, local_data_dir='data/raw'):
@@ -59,13 +59,13 @@ class HDFSManager:
         print("="*60 + "\n")
         
         if not os.path.exists(local_data_dir):
-            print(f"❌ Local directory not found: {local_data_dir}")
+            print(f"Local directory not found: {local_data_dir}")
             return
         
         csv_files = list(Path(local_data_dir).glob('*.csv'))
         
         if not csv_files:
-            print(f"❌ No CSV files found in {local_data_dir}")
+            print(f"No CSV files found in {local_data_dir}")
             return
         
         for csv_file in csv_files:
@@ -73,12 +73,12 @@ class HDFSManager:
             command = f'hdfs dfs -put -f {csv_file} {self.hdfs_raw_path}/'
             self.run_hdfs_command(command)
         
-        print(f"\n✅ Uploaded {len(csv_files)} files to HDFS")
+        print(f"\nUploaded {len(csv_files)} files to HDFS")
         self.list_files(self.hdfs_raw_path)
     
     def list_hdfs_structure(self):
         """Display HDFS directory structure"""
-        print("\n📁 HDFS Directory Structure:")
+        print("\nHDFS Directory Structure:")
         print("-" * 60)
         output = self.run_hdfs_command(f'hdfs dfs -ls -R {self.hdfs_base_path}')
         if output:
@@ -86,7 +86,7 @@ class HDFSManager:
     
     def list_files(self, hdfs_path):
         """List files in specific HDFS directory"""
-        print(f"\n📂 Files in {hdfs_path}:")
+        print(f"\nFiles in {hdfs_path}:")
         print("-" * 60)
         output = self.run_hdfs_command(f'hdfs dfs -ls {hdfs_path}')
         if output:
@@ -98,21 +98,21 @@ class HDFSManager:
         command = f'hdfs dfs -get -f {hdfs_path} {local_path}'
         result = self.run_hdfs_command(command)
         if result is not None:
-            print("✅ Download successful")
+            print("Download successful")
         return result
     
     def delete_hdfs_path(self, hdfs_path):
         """Delete file or directory from HDFS"""
-        print(f"\n⚠️  Deleting {hdfs_path} from HDFS")
+        print(f"\nDeleting {hdfs_path} from HDFS")
         command = f'hdfs dfs -rm -r {hdfs_path}'
         result = self.run_hdfs_command(command)
         if result is not None:
-            print("✅ Deletion successful")
+            print("Deletion successful")
         return result
     
     def get_file_info(self, hdfs_path):
         """Get file information from HDFS"""
-        print(f"\n📊 File Info: {hdfs_path}")
+        print(f"\nFile Info: {hdfs_path}")
         print("-" * 60)
         
         # File size
@@ -127,7 +127,7 @@ class HDFSManager:
     
     def cat_file(self, hdfs_path, num_lines=10):
         """Display file content from HDFS"""
-        print(f"\n📄 First {num_lines} lines of {hdfs_path}:")
+        print(f"\nFirst {num_lines} lines of {hdfs_path}:")
         print("-" * 60)
         command = f'hdfs dfs -cat {hdfs_path} | head -{num_lines}'
         output = self.run_hdfs_command(command)
@@ -141,7 +141,7 @@ class HDFSManager:
         print("="*60 + "\n")
         
         # HDFS report
-        print("📊 HDFS Report:")
+        print("HDFS Report:")
         print("-" * 60)
         report = self.run_hdfs_command('hdfs dfsadmin -report')
         if report:
@@ -150,7 +150,7 @@ class HDFSManager:
                 print(line)
         
         # Disk usage
-        print("\n💾 Disk Usage:")
+        print("\nDisk Usage:")
         print("-" * 60)
         df_output = self.run_hdfs_command('hdfs dfs -df -h')
         if df_output:
@@ -172,13 +172,13 @@ class HDFSManager:
         self.check_hdfs_health()
         
         print("\n" + "="*60)
-        print("✅ HDFS Environment Setup Complete!")
+        print("HDFS Environment Setup Complete!")
         print("="*60 + "\n")
 
 
 def test_hdfs_connection():
     """Test if HDFS is running and accessible"""
-    print("\n🔍 Testing HDFS Connection...")
+    print("\nTesting HDFS Connection...")
     try:
         result = subprocess.run(
             'hdfs dfs -ls /',
@@ -187,10 +187,10 @@ def test_hdfs_connection():
             text=True,
             check=True
         )
-        print("✅ HDFS is running and accessible!")
+        print("HDFS is running and accessible!")
         return True
     except subprocess.CalledProcessError:
-        print("❌ HDFS is not running or not accessible")
+        print("HDFS is not running or not accessible")
         print("\nPlease start HDFS with:")
         print("  start-dfs.sh")
         print("  start-yarn.sh")
@@ -207,5 +207,5 @@ if __name__ == "__main__":
         hdfs_manager.setup_complete_environment(local_data_dir='data/raw')
         
         # Display some sample data
-        print("\n📋 Sample Data from HDFS:")
+        print("\nSample Data from HDFS:")
         hdfs_manager.cat_file(f'{hdfs_manager.hdfs_raw_path}/students.csv', num_lines=5)

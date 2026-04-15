@@ -43,7 +43,7 @@ class ELearningDataGenerator:
             }
             self.students.append(student)
         
-        print(f"✅ Generated {len(self.students)} students")
+        print(f"Generated {len(self.students)} students")
         return pd.DataFrame(self.students)
     
     def generate_courses(self):
@@ -74,7 +74,7 @@ class ELearningDataGenerator:
             }
             self.courses.append(course)
         
-        print(f"✅ Generated {len(self.courses)} courses")
+        print(f"Generated {len(self.courses)} courses")
         return pd.DataFrame(self.courses)
     
     def generate_modules(self):
@@ -96,7 +96,7 @@ class ELearningDataGenerator:
                 self.modules.append(module)
                 module_id += 1
         
-        print(f"✅ Generated {len(self.modules)} modules")
+        print(f"Generated {len(self.modules)} modules")
         return pd.DataFrame(self.modules)
     
     def generate_enrollments(self):
@@ -118,7 +118,7 @@ class ELearningDataGenerator:
                 }
                 self.enrollments.append(enrollment)
         
-        print(f"✅ Generated {len(self.enrollments)} enrollments")
+        print(f"Generated {len(self.enrollments)} enrollments")
         return pd.DataFrame(self.enrollments)
     
     def generate_progress(self):
@@ -154,7 +154,7 @@ class ELearningDataGenerator:
                     }
                     self.progress.append(progress)
         
-        print(f"✅ Generated {len(self.progress)} progress records")
+        print(f"Generated {len(self.progress)} progress records")
         return pd.DataFrame(self.progress)
     
     def generate_assessments(self):
@@ -181,7 +181,7 @@ class ELearningDataGenerator:
                     }
                     self.assessments.append(assessment)
         
-        print(f"✅ Generated {len(self.assessments)} assessments")
+        print(f"Generated {len(self.assessments)} assessments")
         return pd.DataFrame(self.assessments)
     
     def generate_all_data(self, output_dir='data/raw'):
@@ -211,7 +211,7 @@ class ELearningDataGenerator:
         assessments_df.to_csv(f'{output_dir}/assessments.csv', index=False)
         
         print("\n" + "="*60)
-        print("✅ All datasets generated successfully!")
+        print("All datasets generated successfully!")
         print("="*60)
         print(f"\nDataset Summary:")
         print(f"  - Students: {len(students_df)} records")
@@ -244,7 +244,7 @@ if __name__ == "__main__":
     datasets = generator.generate_all_data()
     
     # Display sample data
-    print("\n📊 Sample Data Preview:")
+    print("\nSample Data Preview:")
     print("\n--- Students (First 5) ---")
     print(datasets['students'].head())
     

@@ -1,0 +1,21 @@
+course_id,enrollment_count,course_name,category,rating,price
+CRS007,59,Cybersecurity,Data Science,4.8,148
+CRS002,76,Data Science,Business,4.2,30
+CRS013,83,Database Management,Data Science,3.9,305
+CRS012,69,UI/UX Design,Design,3.6,298
+CRS020,75,Computer Vision,Business,4.4,73
+CRS017,74,IoT,Data Science,4.6,197
+CRS006,85,Cloud Computing,Data Science,3.9,136
+CRS009,71,Artificial Intelligence,Business,4.6,160
+CRS005,74,Mobile App Development,Technology,4.0,189
+CRS011,82,Digital Marketing,Data Science,4.3,46
+CRS016,87,Business Analytics,Business,4.0,291
+CRS018,81,Game Development,Technology,3.7,348
+CRS008,72,DevOps,Business,4.7,492
+CRS003,93,Machine Learning,Design,4.4,104
+CRS014,73,Software Testing,Business,4.8,220
+CRS015,72,Project Management,Data Science,4.0,391
+CRS004,69,Web Development,Design,5.0,163
+CRS010,82,Blockchain,Data Science,4.8,239
+CRS019,83,Data Engineering,Design,4.3,191
+CRS001,80,Python Programming,Data Science,3.9,412

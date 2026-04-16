@@ -1,0 +1,161 @@
+module_id,course_id,module_number,module_name,duration_hours,content_type,difficulty
+MOD00001,CRS001,1,Python Programming - Module 1,8,Live Session,Easy
+MOD00002,CRS001,2,Python Programming - Module 2,2,Video,Easy
+MOD00003,CRS001,3,Python Programming - Module 3,7,Project,Hard
+MOD00004,CRS001,4,Python Programming - Module 4,9,Reading,Hard
+MOD00005,CRS001,5,Python Programming - Module 5,10,Reading,Medium
+MOD00006,CRS001,6,Python Programming - Module 6,7,Reading,Medium
+MOD00007,CRS001,7,Python Programming - Module 7,6,Live Session,Medium
+MOD00008,CRS001,8,Python Programming - Module 8,10,Live Session,Hard
+MOD00009,CRS002,1,Data Science - Module 1,9,Live Session,Medium
+MOD00010,CRS002,2,Data Science - Module 2,9,Video,Medium
+MOD00011,CRS002,3,Data Science - Module 3,7,Video,Medium
+MOD00012,CRS002,4,Data Science - Module 4,6,Video,Hard
+MOD00013,CRS002,5,Data Science - Module 5,9,Quiz,Hard
+MOD00014,CRS002,6,Data Science - Module 6,5,Video,Hard
+MOD00015,CRS002,7,Data Science - Module 7,9,Reading,Hard
+MOD00016,CRS002,8,Data Science - Module 8,8,Reading,Hard
+MOD00017,CRS003,1,Machine Learning - Module 1,5,Video,Hard
+MOD00018,CRS003,2,Machine Learning - Module 2,3,Reading,Easy
+MOD00019,CRS003,3,Machine Learning - Module 3,9,Quiz,Medium
+MOD00020,CRS003,4,Machine Learning - Module 4,4,Project,Hard
+MOD00021,CRS003,5,Machine Learning - Module 5,5,Project,Hard
+MOD00022,CRS003,6,Machine Learning - Module 6,9,Video,Hard
+MOD00023,CRS003,7,Machine Learning - Module 7,4,Live Session,Easy
+MOD00024,CRS003,8,Machine Learning - Module 8,10,Quiz,Hard
+MOD00025,CRS004,1,Web Development - Module 1,9,Live Session,Medium
+MOD00026,CRS004,2,Web Development - Module 2,7,Reading,Medium
+MOD00027,CRS004,3,Web Development - Module 3,10,Quiz,Hard
+MOD00028,CRS004,4,Web Development - Module 4,7,Quiz,Hard
+MOD00029,CRS004,5,Web Development - Module 5,9,Reading,Easy
+MOD00030,CRS004,6,Web Development - Module 6,6,Live Session,Medium
+MOD00031,CRS004,7,Web Development - Module 7,5,Quiz,Medium
+MOD00032,CRS004,8,Web Development - Module 8,5,Project,Medium
+MOD00033,CRS005,1,Mobile App Development - Module 1,9,Quiz,Hard
+MOD00034,CRS005,2,Mobile App Development - Module 2,6,Quiz,Easy
+MOD00035,CRS005,3,Mobile App Development - Module 3,10,Project,Medium
+MOD00036,CRS005,4,Mobile App Development - Module 4,7,Reading,Medium
+MOD00037,CRS005,5,Mobile App Development - Module 5,2,Quiz,Hard
+MOD00038,CRS005,6,Mobile App Development - Module 6,3,Quiz,Medium
+MOD00039,CRS005,7,Mobile App Development - Module 7,6,Project,Easy
+MOD00040,CRS005,8,Mobile App Development - Module 8,5,Live Session,Medium
+MOD00041,CRS006,1,Cloud Computing - Module 1,10,Quiz,Easy
+MOD00042,CRS006,2,Cloud Computing - Module 2,3,Live Session,Hard
+MOD00043,CRS006,3,Cloud Computing - Module 3,5,Reading,Easy
+MOD00044,CRS006,4,Cloud Computing - Module 4,10,Reading,Hard
+MOD00045,CRS006,5,Cloud Computing - Module 5,5,Video,Easy
+MOD00046,CRS006,6,Cloud Computing - Module 6,8,Quiz,Hard
+MOD00047,CRS006,7,Cloud Computing - Module 7,9,Video,Hard
+MOD00048,CRS006,8,Cloud Computing - Module 8,4,Video,Hard
+MOD00049,CRS007,1,Cybersecurity - Module 1,4,Project,Hard
+MOD00050,CRS007,2,Cybersecurity - Module 2,9,Project,Hard
+MOD00051,CRS007,3,Cybersecurity - Module 3,5,Quiz,Medium
+MOD00052,CRS007,4,Cybersecurity - Module 4,6,Video,Easy
+MOD00053,CRS007,5,Cybersecurity - Module 5,5,Live Session,Hard
+MOD00054,CRS007,6,Cybersecurity - Module 6,2,Reading,Medium
+MOD00055,CRS007,7,Cybersecurity - Module 7,4,Video,Medium
+MOD00056,CRS007,8,Cybersecurity - Module 8,9,Reading,Hard
+MOD00057,CRS008,1,DevOps - Module 1,6,Video,Easy
+MOD00058,CRS008,2,DevOps - Module 2,6,Live Session,Hard
+MOD00059,CRS008,3,DevOps - Module 3,3,Quiz,Medium
+MOD00060,CRS008,4,DevOps - Module 4,9,Live Session,Hard
+MOD00061,CRS008,5,DevOps - Module 5,9,Reading,Hard
+MOD00062,CRS008,6,DevOps - Module 6,9,Quiz,Easy
+MOD00063,CRS008,7,DevOps - Module 7,3,Quiz,Easy
+MOD00064,CRS008,8,DevOps - Module 8,9,Quiz,Hard
+MOD00065,CRS009,1,Artificial Intelligence - Module 1,4,Video,Hard
+MOD00066,CRS009,2,Artificial Intelligence - Module 2,7,Quiz,Hard
+MOD00067,CRS009,3,Artificial Intelligence - Module 3,5,Reading,Hard
+MOD00068,CRS009,4,Artificial Intelligence - Module 4,8,Project,Hard
+MOD00069,CRS009,5,Artificial Intelligence - Module 5,7,Video,Medium
+MOD00070,CRS009,6,Artificial Intelligence - Module 6,3,Reading,Easy
+MOD00071,CRS009,7,Artificial Intelligence - Module 7,9,Quiz,Easy
+MOD00072,CRS009,8,Artificial Intelligence - Module 8,2,Quiz,Medium
+MOD00073,CRS010,1,Blockchain - Module 1,5,Project,Medium
+MOD00074,CRS010,2,Blockchain - Module 2,7,Quiz,Hard
+MOD00075,CRS010,3,Blockchain - Module 3,2,Quiz,Hard
+MOD00076,CRS010,4,Blockchain - Module 4,7,Reading,Easy
+MOD00077,CRS010,5,Blockchain - Module 5,3,Project,Medium
+MOD00078,CRS010,6,Blockchain - Module 6,4,Project,Hard
+MOD00079,CRS010,7,Blockchain - Module 7,10,Quiz,Hard
+MOD00080,CRS010,8,Blockchain - Module 8,3,Quiz,Medium
+MOD00081,CRS011,1,Digital Marketing - Module 1,5,Reading,Easy
+MOD00082,CRS011,2,Digital Marketing - Module 2,9,Reading,Medium
+MOD00083,CRS011,3,Digital Marketing - Module 3,7,Project,Hard
+MOD00084,CRS011,4,Digital Marketing - Module 4,10,Project,Hard
+MOD00085,CRS011,5,Digital Marketing - Module 5,5,Reading,Hard
+MOD00086,CRS011,6,Digital Marketing - Module 6,3,Live Session,Medium
+MOD00087,CRS011,7,Digital Marketing - Module 7,10,Quiz,Easy
+MOD00088,CRS011,8,Digital Marketing - Module 8,3,Video,Hard
+MOD00089,CRS012,1,UI/UX Design - Module 1,10,Reading,Hard
+MOD00090,CRS012,2,UI/UX Design - Module 2,10,Reading,Easy
+MOD00091,CRS012,3,UI/UX Design - Module 3,7,Live Session,Medium
+MOD00092,CRS012,4,UI/UX Design - Module 4,3,Reading,Hard
+MOD00093,CRS012,5,UI/UX Design - Module 5,9,Video,Hard
+MOD00094,CRS012,6,UI/UX Design - Module 6,9,Video,Medium
+MOD00095,CRS012,7,UI/UX Design - Module 7,4,Live Session,Medium
+MOD00096,CRS012,8,UI/UX Design - Module 8,9,Live Session,Easy
+MOD00097,CRS013,1,Database Management - Module 1,10,Project,Hard
+MOD00098,CRS013,2,Database Management - Module 2,6,Video,Medium
+MOD00099,CRS013,3,Database Management - Module 3,6,Video,Hard
+MOD00100,CRS013,4,Database Management - Module 4,5,Live Session,Easy
+MOD00101,CRS013,5,Database Management - Module 5,2,Project,Medium
+MOD00102,CRS013,6,Database Management - Module 6,3,Live Session,Easy
+MOD00103,CRS013,7,Database Management - Module 7,3,Project,Easy
+MOD00104,CRS013,8,Database Management - Module 8,6,Project,Easy
+MOD00105,CRS014,1,Software Testing - Module 1,4,Project,Medium
+MOD00106,CRS014,2,Software Testing - Module 2,8,Project,Medium
+MOD00107,CRS014,3,Software Testing - Module 3,8,Video,Hard
+MOD00108,CRS014,4,Software Testing - Module 4,10,Reading,Hard
+MOD00109,CRS014,5,Software Testing - Module 5,7,Video,Easy
+MOD00110,CRS014,6,Software Testing - Module 6,10,Project,Hard
+MOD00111,CRS014,7,Software Testing - Module 7,4,Reading,Easy
+MOD00112,CRS014,8,Software Testing - Module 8,2,Quiz,Medium
+MOD00113,CRS015,1,Project Management - Module 1,10,Project,Hard
+MOD00114,CRS015,2,Project Management - Module 2,8,Reading,Easy
+MOD00115,CRS015,3,Project Management - Module 3,9,Quiz,Easy
+MOD00116,CRS015,4,Project Management - Module 4,6,Reading,Hard
+MOD00117,CRS015,5,Project Management - Module 5,3,Video,Hard
+MOD00118,CRS015,6,Project Management - Module 6,8,Live Session,Easy
+MOD00119,CRS015,7,Project Management - Module 7,5,Reading,Easy
+MOD00120,CRS015,8,Project Management - Module 8,3,Live Session,Easy
+MOD00121,CRS016,1,Business Analytics - Module 1,9,Live Session,Hard
+MOD00122,CRS016,2,Business Analytics - Module 2,2,Reading,Hard
+MOD00123,CRS016,3,Business Analytics - Module 3,2,Project,Medium
+MOD00124,CRS016,4,Business Analytics - Module 4,5,Live Session,Easy
+MOD00125,CRS016,5,Business Analytics - Module 5,2,Reading,Hard
+MOD00126,CRS016,6,Business Analytics - Module 6,6,Reading,Hard
+MOD00127,CRS016,7,Business Analytics - Module 7,7,Live Session,Hard
+MOD00128,CRS016,8,Business Analytics - Module 8,7,Reading,Medium
+MOD00129,CRS017,1,IoT - Module 1,4,Live Session,Easy
+MOD00130,CRS017,2,IoT - Module 2,8,Quiz,Medium
+MOD00131,CRS017,3,IoT - Module 3,2,Live Session,Hard
+MOD00132,CRS017,4,IoT - Module 4,4,Project,Hard
+MOD00133,CRS017,5,IoT - Module 5,9,Video,Medium
+MOD00134,CRS017,6,IoT - Module 6,8,Live Session,Medium
+MOD00135,CRS017,7,IoT - Module 7,8,Project,Easy
+MOD00136,CRS017,8,IoT - Module 8,6,Project,Easy
+MOD00137,CRS018,1,Game Development - Module 1,10,Project,Easy
+MOD00138,CRS018,2,Game Development - Module 2,5,Quiz,Hard
+MOD00139,CRS018,3,Game Development - Module 3,4,Project,Easy
+MOD00140,CRS018,4,Game Development - Module 4,10,Project,Medium
+MOD00141,CRS018,5,Game Development - Module 5,10,Live Session,Easy
+MOD00142,CRS018,6,Game Development - Module 6,8,Reading,Medium
+MOD00143,CRS018,7,Game Development - Module 7,5,Quiz,Hard
+MOD00144,CRS018,8,Game Development - Module 8,3,Project,Medium
+MOD00145,CRS019,1,Data Engineering - Module 1,3,Live Session,Hard
+MOD00146,CRS019,2,Data Engineering - Module 2,5,Video,Medium
+MOD00147,CRS019,3,Data Engineering - Module 3,8,Live Session,Hard
+MOD00148,CRS019,4,Data Engineering - Module 4,2,Video,Easy
+MOD00149,CRS019,5,Data Engineering - Module 5,10,Reading,Medium
+MOD00150,CRS019,6,Data Engineering - Module 6,5,Quiz,Medium
+MOD00151,CRS019,7,Data Engineering - Module 7,2,Reading,Easy
+MOD00152,CRS019,8,Data Engineering - Module 8,3,Project,Easy
+MOD00153,CRS020,1,Computer Vision - Module 1,5,Project,Easy
+MOD00154,CRS020,2,Computer Vision - Module 2,10,Quiz,Medium
+MOD00155,CRS020,3,Computer Vision - Module 3,8,Project,Hard
+MOD00156,CRS020,4,Computer Vision - Module 4,7,Quiz,Medium
+MOD00157,CRS020,5,Computer Vision - Module 5,7,Live Session,Medium
+MOD00158,CRS020,6,Computer Vision - Module 6,9,Video,Hard
+MOD00159,CRS020,7,Computer Vision - Module 7,9,Quiz,Easy
+MOD00160,CRS020,8,Computer Vision - Module 8,7,Quiz,Medium

@@ -1,0 +1,21 @@
+course_id,course_name,instructor,difficulty_level,duration_weeks,price,category,rating,created_date
+CRS001,Python Programming,Kevin Johnson,Intermediate,7,412,Data Science,3.9,2023-07-08
+CRS002,Data Science,Mark Gamble,Beginner,15,30,Business,4.2,2024-08-21
+CRS003,Machine Learning,Ethan Moses,Intermediate,11,104,Design,4.4,2024-04-26
+CRS004,Web Development,Ronnie Wright,Intermediate,15,163,Design,5.0,2023-06-21
+CRS005,Mobile App Development,Samantha Jones,Beginner,16,189,Technology,4.0,2025-02-22
+CRS006,Cloud Computing,Hayden Shannon,Intermediate,5,136,Data Science,3.9,2023-10-28
+CRS007,Cybersecurity,Melanie Browning,Beginner,4,148,Data Science,4.8,2024-04-13
+CRS008,DevOps,Nicolas Salas,Intermediate,7,492,Business,4.7,2023-09-12
+CRS009,Artificial Intelligence,David Montgomery,Advanced,15,160,Business,4.6,2023-08-06
+CRS010,Blockchain,Thomas Lowe,Intermediate,12,239,Data Science,4.8,2024-08-11
+CRS011,Digital Marketing,Pamela Weaver,Intermediate,4,46,Data Science,4.3,2023-05-15
+CRS012,UI/UX Design,Mr. Johnathan Galloway,Beginner,7,298,Design,3.6,2025-01-28
+CRS013,Database Management,Katherine Joyce,Intermediate,11,305,Data Science,3.9,2025-02-11
+CRS014,Software Testing,Daniel Ray,Beginner,5,220,Business,4.8,2023-05-24
+CRS015,Project Management,Karen Fernandez,Advanced,9,391,Data Science,4.0,2024-04-15
+CRS016,Business Analytics,Michael Thompson,Intermediate,4,291,Business,4.0,2025-03-27
+CRS017,IoT,Julia Norris,Intermediate,5,197,Data Science,4.6,2023-04-23
+CRS018,Game Development,Kevin Nguyen,Intermediate,13,348,Technology,3.7,2024-07-05
+CRS019,Data Engineering,Joshua Young,Beginner,10,191,Design,4.3,2024-03-24
+CRS020,Computer Vision,Holly Jimenez,Intermediate,16,73,Business,4.4,2023-09-15

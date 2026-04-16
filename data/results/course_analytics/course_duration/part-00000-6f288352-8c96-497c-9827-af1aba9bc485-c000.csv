@@ -1,0 +1,21 @@
+course_id,course_name,difficulty_level,expected_days,avg_days_to_complete,min_days,max_days,completions
+CRS001,Python Programming,Intermediate,49,84.23,59,90,35
+CRS002,Data Science,Beginner,105,79.5,57,90,32
+CRS003,Machine Learning,Intermediate,77,81.91,50,90,35
+CRS004,Web Development,Intermediate,105,82.48,52,90,21
+CRS005,Mobile App Development,Beginner,112,81.51,51,90,39
+CRS006,Cloud Computing,Intermediate,35,79.73,56,90,33
+CRS007,Cybersecurity,Beginner,28,83.68,73,89,19
+CRS008,DevOps,Intermediate,49,79.03,54,90,30
+CRS009,Artificial Intelligence,Advanced,105,79.0,57,90,30
+CRS010,Blockchain,Intermediate,84,80.48,66,90,40
+CRS011,Digital Marketing,Intermediate,28,81.18,62,90,33
+CRS012,UI/UX Design,Beginner,49,79.7,58,90,30
+CRS013,Database Management,Intermediate,77,81.14,57,90,44
+CRS014,Software Testing,Beginner,35,79.0,53,90,29
+CRS015,Project Management,Advanced,63,80.32,62,90,28
+CRS016,Business Analytics,Intermediate,28,81.5,51,90,36
+CRS017,IoT,Intermediate,35,81.49,61,90,37
+CRS018,Game Development,Intermediate,91,77.57,52,90,30
+CRS019,Data Engineering,Beginner,70,81.58,52,90,36
+CRS020,Computer Vision,Intermediate,112,79.4,60,89,25

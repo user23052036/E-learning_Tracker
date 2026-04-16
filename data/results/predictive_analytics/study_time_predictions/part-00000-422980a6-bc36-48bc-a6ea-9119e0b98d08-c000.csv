@@ -1,0 +1,21 @@
+course_id,course_name,difficulty_level,num_modules,expected_total_hours,actual_avg_total_hours,time_variance_pct
+CRS001,Python Programming,Intermediate,8,59,48.370000000000005,-18.02
+CRS002,Data Science,Beginner,8,62,52.53999999999999,-15.26
+CRS003,Machine Learning,Intermediate,8,49,40.93,-16.47
+CRS004,Web Development,Intermediate,8,58,46.84,-19.24
+CRS005,Mobile App Development,Beginner,8,48,39.73,-17.23
+CRS006,Cloud Computing,Intermediate,8,54,44.07,-18.39
+CRS007,Cybersecurity,Beginner,8,44,35.41,-19.52
+CRS008,DevOps,Intermediate,8,54,45.69,-15.39
+CRS009,Artificial Intelligence,Advanced,8,45,39.11,-13.09
+CRS010,Blockchain,Intermediate,8,41,34.31,-16.32
+CRS011,Digital Marketing,Intermediate,8,52,42.9,-17.5
+CRS012,UI/UX Design,Beginner,8,61,49.0,-19.67
+CRS013,Database Management,Intermediate,8,41,35.11,-14.37
+CRS014,Software Testing,Beginner,8,53,43.43,-18.06
+CRS015,Project Management,Advanced,8,52,42.13999999999999,-18.96
+CRS016,Business Analytics,Intermediate,8,40,33.32,-16.7
+CRS017,IoT,Intermediate,8,49,40.959999999999994,-16.41
+CRS018,Game Development,Intermediate,8,55,44.55,-19.0
+CRS019,Data Engineering,Beginner,8,38,31.59,-16.87
+CRS020,Computer Vision,Intermediate,8,62,50.89000000000001,-17.92

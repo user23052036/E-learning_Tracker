@@ -1,0 +1,161 @@
+course_id,module_id,module_name,module_number,difficulty,duration_hours,total_attempts,completed,completion_rate,avg_time_spent,avg_progress
+CRS001,MOD00001,Python Programming - Module 1,1,Easy,8,56,34,60.71,6.28,49.07
+CRS001,MOD00002,Python Programming - Module 2,2,Easy,2,56,33,58.93,2.07,47.13
+CRS001,MOD00003,Python Programming - Module 3,3,Hard,7,52,29,55.77,5.79,53.48
+CRS001,MOD00004,Python Programming - Module 4,4,Hard,9,54,31,57.41,7.46,52.5
+CRS001,MOD00005,Python Programming - Module 5,5,Medium,10,55,31,56.36,7.19,54.07
+CRS001,MOD00006,Python Programming - Module 6,6,Medium,7,55,30,54.55,5.92,51.16
+CRS001,MOD00007,Python Programming - Module 7,7,Medium,6,59,34,57.63,4.64,50.12
+CRS001,MOD00008,Python Programming - Module 8,8,Hard,10,55,35,63.64,9.02,47.16
+CRS002,MOD00009,Data Science - Module 1,1,Medium,9,51,31,60.78,7.9,55.69
+CRS002,MOD00010,Data Science - Module 2,2,Medium,9,54,29,53.7,7.58,51.74
+CRS002,MOD00011,Data Science - Module 3,3,Medium,7,53,26,49.06,6.24,50.89
+CRS002,MOD00012,Data Science - Module 4,4,Hard,6,58,32,55.17,5.26,51.84
+CRS002,MOD00013,Data Science - Module 5,5,Hard,9,54,32,59.26,7.27,49.65
+CRS002,MOD00014,Data Science - Module 6,6,Hard,5,56,34,60.71,4.16,51.23
+CRS002,MOD00015,Data Science - Module 7,7,Hard,9,58,33,56.9,6.97,48.9
+CRS002,MOD00016,Data Science - Module 8,8,Hard,8,55,32,58.18,7.16,49.53
+CRS003,MOD00017,Machine Learning - Module 1,1,Hard,5,62,33,53.23,4.19,49.98
+CRS003,MOD00018,Machine Learning - Module 2,2,Easy,3,71,39,54.93,2.38,51.13
+CRS003,MOD00019,Machine Learning - Module 3,3,Medium,9,67,41,61.19,7.75,59.03
+CRS003,MOD00020,Machine Learning - Module 4,4,Hard,4,65,36,55.38,3.68,51.88
+CRS003,MOD00021,Machine Learning - Module 5,5,Hard,5,69,40,57.97,4.3,53.48
+CRS003,MOD00022,Machine Learning - Module 6,6,Hard,9,64,41,64.06,7.27,48.95
+CRS003,MOD00023,Machine Learning - Module 7,7,Easy,4,63,34,53.97,3.68,49.1
+CRS003,MOD00024,Machine Learning - Module 8,8,Hard,10,60,30,50.0,7.68,47.02
+CRS004,MOD00025,Web Development - Module 1,1,Medium,9,46,28,60.87,6.75,46.91
+CRS004,MOD00026,Web Development - Module 2,2,Medium,7,44,31,70.45,6.61,54.11
+CRS004,MOD00027,Web Development - Module 3,3,Hard,10,49,27,55.1,7.89,55.9
+CRS004,MOD00028,Web Development - Module 4,4,Hard,7,49,30,61.22,5.73,49.63
+CRS004,MOD00029,Web Development - Module 5,5,Easy,9,51,26,50.98,6.62,55.49
+CRS004,MOD00030,Web Development - Module 6,6,Medium,6,43,26,60.47,5.66,43.63
+CRS004,MOD00031,Web Development - Module 7,7,Medium,5,47,30,63.83,3.83,50.89
+CRS004,MOD00032,Web Development - Module 8,8,Medium,5,43,21,48.84,3.75,43.4
+CRS005,MOD00033,Mobile App Development - Module 1,1,Hard,9,57,36,63.16,6.64,46.18
+CRS005,MOD00034,Mobile App Development - Module 2,2,Easy,6,60,33,55.0,5.02,49.65
+CRS005,MOD00035,Mobile App Development - Module 3,3,Medium,10,55,25,45.45,8.18,48.38
+CRS005,MOD00036,Mobile App Development - Module 4,4,Medium,7,57,30,52.63,6.12,47.07
+CRS005,MOD00037,Mobile App Development - Module 5,5,Hard,2,59,35,59.32,1.95,54.14
+CRS005,MOD00038,Mobile App Development - Module 6,6,Medium,3,62,34,54.84,2.76,55.29
+CRS005,MOD00039,Mobile App Development - Module 7,7,Easy,6,63,34,53.97,4.8,47.78
+CRS005,MOD00040,Mobile App Development - Module 8,8,Medium,5,64,37,57.81,4.26,48.98
+CRS006,MOD00041,Cloud Computing - Module 1,1,Easy,10,62,40,64.52,7.72,46.48
+CRS006,MOD00042,Cloud Computing - Module 2,2,Hard,3,56,32,57.14,2.73,48.21
+CRS006,MOD00043,Cloud Computing - Module 3,3,Easy,5,63,38,60.32,4.27,52.25
+CRS006,MOD00044,Cloud Computing - Module 4,4,Hard,10,65,42,64.62,7.74,48.45
+CRS006,MOD00045,Cloud Computing - Module 5,5,Easy,5,60,39,65.0,4.17,54.25
+CRS006,MOD00046,Cloud Computing - Module 6,6,Hard,8,64,39,60.94,6.51,51.05
+CRS006,MOD00047,Cloud Computing - Module 7,7,Hard,9,60,40,66.67,7.31,49.65
+CRS006,MOD00048,Cloud Computing - Module 8,8,Hard,4,62,31,50.0,3.62,50.48
+CRS007,MOD00049,Cybersecurity - Module 1,1,Hard,4,41,22,53.66,3.31,53.73
+CRS007,MOD00050,Cybersecurity - Module 2,2,Hard,9,38,22,57.89,6.55,47.53
+CRS007,MOD00051,Cybersecurity - Module 3,3,Medium,5,42,26,61.9,3.78,50.31
+CRS007,MOD00052,Cybersecurity - Module 4,4,Easy,6,41,21,51.22,4.83,47.9
+CRS007,MOD00053,Cybersecurity - Module 5,5,Hard,5,41,25,60.98,4.32,50.41
+CRS007,MOD00054,Cybersecurity - Module 6,6,Medium,2,45,26,57.78,2.02,48.93
+CRS007,MOD00055,Cybersecurity - Module 7,7,Medium,4,39,23,58.97,3.44,53.49
+CRS007,MOD00056,Cybersecurity - Module 8,8,Hard,9,40,23,57.5,7.16,47.2
+CRS008,MOD00057,DevOps - Module 1,1,Easy,6,53,33,62.26,4.47,51.91
+CRS008,MOD00058,DevOps - Module 2,2,Hard,6,54,28,51.85,5.58,43.24
+CRS008,MOD00059,DevOps - Module 3,3,Medium,3,50,32,64.0,2.7,47.1
+CRS008,MOD00060,DevOps - Module 4,4,Hard,9,48,26,54.17,8.26,46.46
+CRS008,MOD00061,DevOps - Module 5,5,Hard,9,54,29,53.7,7.52,49.83
+CRS008,MOD00062,DevOps - Module 6,6,Easy,9,46,26,56.52,6.55,45.15
+CRS008,MOD00063,DevOps - Module 7,7,Easy,3,51,33,64.71,2.77,49.88
+CRS008,MOD00064,DevOps - Module 8,8,Hard,9,55,39,70.91,7.84,52.15
+CRS009,MOD00065,Artificial Intelligence - Module 1,1,Hard,4,51,25,49.02,3.55,43.1
+CRS009,MOD00066,Artificial Intelligence - Module 2,2,Hard,7,47,29,61.7,6.6,46.3
+CRS009,MOD00067,Artificial Intelligence - Module 3,3,Hard,5,54,35,64.81,4.36,49.31
+CRS009,MOD00068,Artificial Intelligence - Module 4,4,Hard,8,50,25,50.0,6.51,58.34
+CRS009,MOD00069,Artificial Intelligence - Module 5,5,Medium,7,48,30,62.5,6.49,54.29
+CRS009,MOD00070,Artificial Intelligence - Module 6,6,Easy,3,51,33,64.71,2.84,54.76
+CRS009,MOD00071,Artificial Intelligence - Module 7,7,Easy,9,47,26,55.32,6.76,47.51
+CRS009,MOD00072,Artificial Intelligence - Module 8,8,Medium,2,50,27,54.0,2.0,49.3
+CRS010,MOD00073,Blockchain - Module 1,1,Medium,5,58,40,68.97,4.64,52.98
+CRS010,MOD00074,Blockchain - Module 2,2,Hard,7,53,30,56.6,5.87,44.62
+CRS010,MOD00075,Blockchain - Module 3,3,Hard,2,65,37,56.92,1.99,53.08
+CRS010,MOD00076,Blockchain - Module 4,4,Easy,7,58,31,53.45,5.71,51.79
+CRS010,MOD00077,Blockchain - Module 5,5,Medium,3,62,43,69.35,2.68,51.97
+CRS010,MOD00078,Blockchain - Module 6,6,Hard,4,60,42,70.0,3.58,53.62
+CRS010,MOD00079,Blockchain - Module 7,7,Hard,10,61,39,63.93,6.89,49.62
+CRS010,MOD00080,Blockchain - Module 8,8,Medium,3,67,39,58.21,2.95,49.99
+CRS011,MOD00081,Digital Marketing - Module 1,1,Easy,5,62,33,53.23,4.62,51.82
+CRS011,MOD00082,Digital Marketing - Module 2,2,Medium,9,57,33,57.89,7.21,51.19
+CRS011,MOD00083,Digital Marketing - Module 3,3,Hard,7,60,33,55.0,5.79,53.12
+CRS011,MOD00084,Digital Marketing - Module 4,4,Hard,10,62,34,54.84,8.61,48.08
+CRS011,MOD00085,Digital Marketing - Module 5,5,Hard,5,56,34,60.71,3.67,52.32
+CRS011,MOD00086,Digital Marketing - Module 6,6,Medium,3,59,35,59.32,2.75,50.03
+CRS011,MOD00087,Digital Marketing - Module 7,7,Easy,10,54,31,57.41,7.56,56.76
+CRS011,MOD00088,Digital Marketing - Module 8,8,Hard,3,57,32,56.14,2.69,55.7
+CRS012,MOD00089,UI/UX Design - Module 1,1,Hard,10,57,40,70.18,6.96,56.09
+CRS012,MOD00090,UI/UX Design - Module 2,2,Easy,10,54,34,62.96,8.0,44.54
+CRS012,MOD00091,UI/UX Design - Module 3,3,Medium,7,54,35,64.81,5.58,44.65
+CRS012,MOD00092,UI/UX Design - Module 4,4,Hard,3,57,34,59.65,2.8,52.53
+CRS012,MOD00093,UI/UX Design - Module 5,5,Hard,9,58,31,53.45,7.59,43.31
+CRS012,MOD00094,UI/UX Design - Module 6,6,Medium,9,54,35,64.81,8.17,42.13
+CRS012,MOD00095,UI/UX Design - Module 7,7,Medium,4,51,33,64.71,3.4,48.12
+CRS012,MOD00096,UI/UX Design - Module 8,8,Easy,9,52,36,69.23,6.5,44.52
+CRS013,MOD00097,Database Management - Module 1,1,Hard,10,68,37,54.41,8.19,51.78
+CRS013,MOD00098,Database Management - Module 2,2,Medium,6,62,35,56.45,5.18,51.18
+CRS013,MOD00099,Database Management - Module 3,3,Hard,6,66,43,65.15,4.96,48.45
+CRS013,MOD00100,Database Management - Module 4,4,Easy,5,66,46,69.7,4.08,43.76
+CRS013,MOD00101,Database Management - Module 5,5,Medium,2,67,38,56.72,2.07,56.39
+CRS013,MOD00102,Database Management - Module 6,6,Easy,3,67,37,55.22,2.78,51.28
+CRS013,MOD00103,Database Management - Module 7,7,Easy,3,68,47,69.12,2.71,44.9
+CRS013,MOD00104,Database Management - Module 8,8,Easy,6,66,32,48.48,5.14,55.79
+CRS014,MOD00105,Software Testing - Module 1,1,Medium,4,52,32,61.54,3.41,46.12
+CRS014,MOD00106,Software Testing - Module 2,2,Medium,8,56,33,58.93,7.42,49.14
+CRS014,MOD00107,Software Testing - Module 3,3,Hard,8,60,39,65.0,6.53,44.85
+CRS014,MOD00108,Software Testing - Module 4,4,Hard,10,51,40,78.43,7.26,51.59
+CRS014,MOD00109,Software Testing - Module 5,5,Easy,7,58,38,65.52,5.74,51.03
+CRS014,MOD00110,Software Testing - Module 6,6,Hard,10,57,37,64.91,7.7,53.05
+CRS014,MOD00111,Software Testing - Module 7,7,Easy,4,53,26,49.06,3.36,46.72
+CRS014,MOD00112,Software Testing - Module 8,8,Medium,2,56,31,55.36,2.01,58.18
+CRS015,MOD00113,Project Management - Module 1,1,Hard,10,56,32,57.14,7.51,47.77
+CRS015,MOD00114,Project Management - Module 2,2,Easy,8,52,32,61.54,6.12,42.94
+CRS015,MOD00115,Project Management - Module 3,3,Easy,9,47,32,68.09,7.25,55.83
+CRS015,MOD00116,Project Management - Module 4,4,Hard,6,54,33,61.11,4.45,52.56
+CRS015,MOD00117,Project Management - Module 5,5,Hard,3,51,33,64.71,2.72,51.27
+CRS015,MOD00118,Project Management - Module 6,6,Easy,8,54,30,55.56,7.02,47.93
+CRS015,MOD00119,Project Management - Module 7,7,Easy,5,52,28,53.85,4.12,40.94
+CRS015,MOD00120,Project Management - Module 8,8,Easy,3,49,24,48.98,2.95,43.51
+CRS016,MOD00121,Business Analytics - Module 1,1,Hard,9,64,38,59.38,7.58,50.47
+CRS016,MOD00122,Business Analytics - Module 2,2,Hard,2,69,37,53.62,1.92,53.77
+CRS016,MOD00123,Business Analytics - Module 3,3,Medium,2,63,31,49.21,2.01,61.25
+CRS016,MOD00124,Business Analytics - Module 4,4,Easy,5,67,41,61.19,4.16,54.96
+CRS016,MOD00125,Business Analytics - Module 5,5,Hard,2,68,45,66.18,1.9,50.44
+CRS016,MOD00126,Business Analytics - Module 6,6,Hard,6,63,46,73.02,5.05,46.19
+CRS016,MOD00127,Business Analytics - Module 7,7,Hard,7,67,37,55.22,5.26,46.42
+CRS016,MOD00128,Business Analytics - Module 8,8,Medium,7,61,38,62.3,5.44,52.33
+CRS017,MOD00129,IoT - Module 1,1,Easy,4,54,27,50.0,3.64,48.33
+CRS017,MOD00130,IoT - Module 2,2,Medium,8,58,30,51.72,6.34,44.62
+CRS017,MOD00131,IoT - Module 3,3,Hard,2,57,35,61.4,1.97,45.56
+CRS017,MOD00132,IoT - Module 4,4,Hard,4,54,32,59.26,3.55,54.41
+CRS017,MOD00133,IoT - Module 5,5,Medium,9,53,31,58.49,7.07,49.72
+CRS017,MOD00134,IoT - Module 6,6,Medium,8,59,42,71.19,6.68,46.64
+CRS017,MOD00135,IoT - Module 7,7,Easy,8,51,39,76.47,6.87,45.65
+CRS017,MOD00136,IoT - Module 8,8,Easy,6,55,32,58.18,4.84,51.84
+CRS018,MOD00137,Game Development - Module 1,1,Easy,10,53,35,66.04,7.57,50.25
+CRS018,MOD00138,Game Development - Module 2,2,Hard,5,59,35,59.32,4.15,53.54
+CRS018,MOD00139,Game Development - Module 3,3,Easy,4,56,33,58.93,3.61,49.91
+CRS018,MOD00140,Game Development - Module 4,4,Medium,10,54,29,53.7,8.74,52.43
+CRS018,MOD00141,Game Development - Module 5,5,Easy,10,62,40,64.52,7.35,48.45
+CRS018,MOD00142,Game Development - Module 6,6,Medium,8,56,30,53.57,6.19,47.59
+CRS018,MOD00143,Game Development - Module 7,7,Hard,5,53,34,64.15,4.18,47.4
+CRS018,MOD00144,Game Development - Module 8,8,Medium,3,59,30,50.85,2.76,49.88
+CRS019,MOD00145,Data Engineering - Module 1,1,Hard,3,62,39,62.9,2.79,53.89
+CRS019,MOD00146,Data Engineering - Module 2,2,Medium,5,61,37,60.66,4.1,48.92
+CRS019,MOD00147,Data Engineering - Module 3,3,Hard,8,60,37,61.67,6.2,45.8
+CRS019,MOD00148,Data Engineering - Module 4,4,Easy,2,66,39,59.09,2.03,50.97
+CRS019,MOD00149,Data Engineering - Module 5,5,Medium,10,59,34,57.63,7.52,49.64
+CRS019,MOD00150,Data Engineering - Module 6,6,Medium,5,67,36,53.73,4.36,50.1
+CRS019,MOD00151,Data Engineering - Module 7,7,Easy,2,67,40,59.7,2.02,50.4
+CRS019,MOD00152,Data Engineering - Module 8,8,Easy,3,66,42,63.64,2.57,50.92
+CRS020,MOD00153,Computer Vision - Module 1,1,Easy,5,53,29,54.72,4.43,42.42
+CRS020,MOD00154,Computer Vision - Module 2,2,Medium,10,53,31,58.49,8.73,52.74
+CRS020,MOD00155,Computer Vision - Module 3,3,Hard,8,49,32,65.31,5.97,49.24
+CRS020,MOD00156,Computer Vision - Module 4,4,Medium,7,47,34,72.34,6.12,50.89
+CRS020,MOD00157,Computer Vision - Module 5,5,Medium,7,49,26,53.06,5.57,52.37
+CRS020,MOD00158,Computer Vision - Module 6,6,Hard,9,44,30,68.18,7.13,53.0
+CRS020,MOD00159,Computer Vision - Module 7,7,Easy,9,50,27,54.0,6.74,49.24
+CRS020,MOD00160,Computer Vision - Module 8,8,Medium,7,45,30,66.67,6.2,52.6

@@ -1,0 +1,21 @@
+course_id,course_name,difficulty_level,category,total_enrollments,completed,active,dropped,completion_rate,drop_rate
+CRS013,Database Management,Intermediate,Data Science,83,44,29,10,53.01,12.05
+CRS005,Mobile App Development,Beginner,Technology,74,39,26,9,52.7,12.16
+CRS017,IoT,Intermediate,Data Science,74,37,19,18,50.0,24.32
+CRS010,Blockchain,Intermediate,Data Science,82,40,27,15,48.78,18.29
+CRS001,Python Programming,Intermediate,Data Science,80,35,31,14,43.75,17.5
+CRS012,UI/UX Design,Beginner,Design,69,30,34,5,43.48,7.25
+CRS019,Data Engineering,Beginner,Design,83,36,36,11,43.37,13.25
+CRS009,Artificial Intelligence,Advanced,Business,71,30,30,11,42.25,15.49
+CRS002,Data Science,Beginner,Business,76,32,25,19,42.11,25.0
+CRS008,DevOps,Intermediate,Business,72,30,29,13,41.67,18.06
+CRS016,Business Analytics,Intermediate,Business,87,36,41,10,41.38,11.49
+CRS011,Digital Marketing,Intermediate,Data Science,82,33,38,11,40.24,13.41
+CRS014,Software Testing,Beginner,Business,73,29,32,12,39.73,16.44
+CRS015,Project Management,Advanced,Data Science,72,28,32,12,38.89,16.67
+CRS006,Cloud Computing,Intermediate,Data Science,85,33,39,13,38.82,15.29
+CRS003,Machine Learning,Intermediate,Design,93,35,45,13,37.63,13.98
+CRS018,Game Development,Intermediate,Technology,81,30,35,16,37.04,19.75
+CRS020,Computer Vision,Intermediate,Business,75,25,32,18,33.33,24.0
+CRS007,Cybersecurity,Beginner,Data Science,59,19,23,17,32.2,28.81
+CRS004,Web Development,Intermediate,Design,69,21,28,20,30.43,28.99
